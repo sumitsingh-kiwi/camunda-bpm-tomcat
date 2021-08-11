@@ -1,0 +1,1302 @@
+19-Jul-2021 15:19:37.234 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.43
+19-Jul-2021 15:19:37.237 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Jan 28 2021 20:25:45 UTC
+19-Jul-2021 15:19:37.237 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.43.0
+19-Jul-2021 15:19:37.237 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+19-Jul-2021 15:19:37.237 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            5.4.0-77-generic
+19-Jul-2021 15:19:37.237 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+19-Jul-2021 15:19:37.237 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /usr/lib/jvm/java-11-openjdk-amd64
+19-Jul-2021 15:19:37.237 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           11.0.11+9-Ubuntu-0ubuntu2.18.04
+19-Jul-2021 15:19:37.237 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Ubuntu
+19-Jul-2021 15:19:37.237 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /home/kiwitech/Downloads/camunda-bpm-tomcat-7.15.0/server/apache-tomcat-9.0.43
+19-Jul-2021 15:19:37.237 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /home/kiwitech/Downloads/camunda-bpm-tomcat-7.15.0/server/apache-tomcat-9.0.43
+19-Jul-2021 15:19:37.306 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+19-Jul-2021 15:19:37.306 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+19-Jul-2021 15:19:37.306 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+19-Jul-2021 15:19:37.306 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+19-Jul-2021 15:19:37.306 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+19-Jul-2021 15:19:37.306 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=./server/apache-tomcat-9.0.43/conf/logging.properties
+19-Jul-2021 15:19:37.307 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+19-Jul-2021 15:19:37.307 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+19-Jul-2021 15:19:37.307 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+19-Jul-2021 15:19:37.307 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+19-Jul-2021 15:19:37.307 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Xmx512m
+19-Jul-2021 15:19:37.307 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+19-Jul-2021 15:19:37.307 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=./server/apache-tomcat-9.0.43
+19-Jul-2021 15:19:37.307 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=./server/apache-tomcat-9.0.43
+19-Jul-2021 15:19:37.307 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=./server/apache-tomcat-9.0.43/temp
+19-Jul-2021 15:19:37.344 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [/usr/java/packages/lib:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib]
+19-Jul-2021 15:19:37.901 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+19-Jul-2021 15:19:37.989 SEVERE [main] org.apache.catalina.util.LifecycleBase.handleSubClassException Failed to initialize component [Connector[HTTP/1.1-8080]]
+	org.apache.catalina.LifecycleException: Protocol handler initialization failed
+		at org.apache.catalina.connector.Connector.initInternal(Connector.java:1049)
+		at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:136)
+		at org.apache.catalina.core.StandardService.initInternal(StandardService.java:558)
+		at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:136)
+		at org.apache.catalina.core.StandardServer.initInternal(StandardServer.java:1045)
+		at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:136)
+		at org.apache.catalina.startup.Catalina.load(Catalina.java:724)
+		at org.apache.catalina.startup.Catalina.load(Catalina.java:746)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+		at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+		at org.apache.catalina.startup.Bootstrap.load(Bootstrap.java:302)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:472)
+	Caused by: java.net.BindException: Address already in use
+		at java.base/sun.nio.ch.Net.bind0(Native Method)
+		at java.base/sun.nio.ch.Net.bind(Net.java:455)
+		at java.base/sun.nio.ch.Net.bind(Net.java:447)
+		at java.base/sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:227)
+		at org.apache.tomcat.util.net.NioEndpoint.initServerSocket(NioEndpoint.java:277)
+		at org.apache.tomcat.util.net.NioEndpoint.bind(NioEndpoint.java:241)
+		at org.apache.tomcat.util.net.AbstractEndpoint.bindWithCleanup(AbstractEndpoint.java:1193)
+		at org.apache.tomcat.util.net.AbstractEndpoint.init(AbstractEndpoint.java:1206)
+		at org.apache.coyote.AbstractProtocol.init(AbstractProtocol.java:597)
+		at org.apache.coyote.http11.AbstractHttp11Protocol.init(AbstractHttp11Protocol.java:80)
+		at org.apache.catalina.connector.Connector.initInternal(Connector.java:1046)
+		... 13 more
+19-Jul-2021 15:19:37.990 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [1592] milliseconds
+19-Jul-2021 15:19:38.770 INFO [main] org.camunda.commons.logging.BaseLogger.logInfo ENGINE-08046 Found Camunda Platform configuration in CATALINA_BASE/CATALINA_HOME conf directory [/home/kiwitech/Downloads/camunda-bpm-tomcat-7.15.0/server/apache-tomcat-9.0.43/conf/bpm-platform.xml] at 'file:/home/kiwitech/Downloads/camunda-bpm-tomcat-7.15.0/server/apache-tomcat-9.0.43/conf/bpm-platform.xml'
+19-Jul-2021 15:19:39.846 INFO [main] org.camunda.commons.logging.BaseLogger.logInfo ENGINE-12003 Plugin 'ProcessApplicationEventListenerPlugin' activated on process engine 'default'
+19-Jul-2021 15:19:39.883 INFO [main] org.camunda.commons.logging.BaseLogger.logInfo ENGINE-12003 Plugin 'SpinProcessEnginePlugin' activated on process engine 'default'
+19-Jul-2021 15:19:39.918 INFO [main] org.camunda.commons.logging.BaseLogger.logInfo SPIN-01010 Discovered Spin data format provider: org.camunda.spin.impl.json.jackson.format.JacksonJsonDataFormatProvider[name = application/json]
+19-Jul-2021 15:19:41.192 INFO [main] org.camunda.commons.logging.BaseLogger.logInfo SPIN-01010 Discovered Spin data format provider: org.camunda.spin.impl.xml.dom.format.DomXmlDataFormatProvider[name = application/xml]
+19-Jul-2021 15:19:41.277 INFO [main] org.camunda.commons.logging.BaseLogger.logInfo SPIN-01009 Discovered Spin data format: org.camunda.spin.impl.xml.dom.format.DomXmlDataFormat[name = application/xml]
+19-Jul-2021 15:19:41.278 INFO [main] org.camunda.commons.logging.BaseLogger.logInfo SPIN-01009 Discovered Spin data format: org.camunda.spin.impl.json.jackson.format.JacksonJsonDataFormat[name = application/json]
+19-Jul-2021 15:19:41.278 INFO [main] org.camunda.commons.logging.BaseLogger.logInfo ENGINE-12003 Plugin 'ConnectProcessEnginePlugin' activated on process engine 'default'
+19-Jul-2021 15:19:41.448 INFO [main] org.camunda.commons.logging.BaseLogger.logInfo CNCT-01004 Discovered provider for connector id 'mail-send' and class 'org.camunda.bpm.extension.mail.send.SendMailConnector': 'org.camunda.bpm.extension.mail.send.SendMailProvider'
+19-Jul-2021 15:19:41.450 INFO [main] org.camunda.commons.logging.BaseLogger.logInfo CNCT-01004 Discovered provider for connector id 'mail-poll' and class 'org.camunda.bpm.extension.mail.poll.PollMailConnector': 'org.camunda.bpm.extension.mail.poll.PollMailProvider'
+19-Jul-2021 15:19:41.451 INFO [main] org.camunda.commons.logging.BaseLogger.logInfo CNCT-01004 Discovered provider for connector id 'mail-delete' and class 'org.camunda.bpm.extension.mail.delete.DeleteMailConnector': 'org.camunda.bpm.extension.mail.delete.DeleteMailProvider'
+19-Jul-2021 15:19:43.130 INFO [main] org.camunda.commons.logging.BaseLogger.logInfo CNCT-01004 Discovered provider for connector id 'http-connector' and class 'org.camunda.connect.httpclient.impl.HttpConnectorImpl': 'org.camunda.connect.httpclient.impl.HttpConnectorProviderImpl'
+19-Jul-2021 15:19:43.136 INFO [main] org.camunda.commons.logging.BaseLogger.logInfo CNCT-01004 Discovered provider for connector id 'soap-http-connector' and class 'org.camunda.connect.httpclient.soap.impl.SoapHttpConnectorImpl': 'org.camunda.connect.httpclient.soap.impl.SoapHttpConnectorProviderImpl'
+19-Jul-2021 15:19:44.526 INFO [main] org.camunda.commons.logging.BaseLogger.logInfo FEEL/SCALA-01001 Spin value mapper detected
+19-Jul-2021 15:19:44.794 INFO [main] org.camunda.feel.FeelEngine.<init> Engine created. [value-mapper: CompositeValueMapper(List(org.camunda.feel.impl.JavaValueMapper@131ff6fa, org.camunda.spin.plugin.impl.feel.integration.SpinValueMapper@43b40233)), function-provider: org.camunda.bpm.dmn.feel.impl.scala.function.CustomFunctionTransformer@1dd7796b, clock: SystemClock, configuration: Configuration(false)]
+19-Jul-2021 15:19:48.196 INFO [main] org.camunda.commons.logging.BaseLogger.logInfo ENGINE-00001 Process Engine default created.
+19-Jul-2021 15:19:48.197 INFO [main] org.camunda.commons.logging.BaseLogger.logInfo ENGINE-14014 Starting up the JobExecutor[org.camunda.bpm.engine.impl.jobexecutor.RuntimeContainerJobExecutor].
+19-Jul-2021 15:19:48.198 INFO [Thread-4] org.camunda.commons.logging.BaseLogger.logInfo ENGINE-14018 JobExecutor[org.camunda.bpm.engine.impl.jobexecutor.RuntimeContainerJobExecutor] starting to acquire jobs
+19-Jul-2021 15:19:48.199 INFO [main] org.camunda.commons.logging.BaseLogger.logInfo ENGINE-08048 Camunda Platform sucessfully started at 'Apache Tomcat/9.0.43'.
+19-Jul-2021 15:19:48.297 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+19-Jul-2021 15:19:48.297 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.43]
+19-Jul-2021 15:19:48.391 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/kiwitech/Downloads/camunda-bpm-tomcat-7.15.0/server/apache-tomcat-9.0.43/webapps/ROOT]
+19-Jul-2021 15:19:51.538 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+19-Jul-2021 15:19:51.644 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/kiwitech/Downloads/camunda-bpm-tomcat-7.15.0/server/apache-tomcat-9.0.43/webapps/ROOT] has finished in [3,252] ms
+19-Jul-2021 15:19:51.644 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/kiwitech/Downloads/camunda-bpm-tomcat-7.15.0/server/apache-tomcat-9.0.43/webapps/engine-rest]
+19-Jul-2021 15:19:53.242 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+19-Jul-2021 15:19:53.414 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/kiwitech/Downloads/camunda-bpm-tomcat-7.15.0/server/apache-tomcat-9.0.43/webapps/engine-rest] has finished in [1,769] ms
+19-Jul-2021 15:19:53.414 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/kiwitech/Downloads/camunda-bpm-tomcat-7.15.0/server/apache-tomcat-9.0.43/webapps/manager]
+19-Jul-2021 15:19:54.516 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+19-Jul-2021 15:19:54.520 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/kiwitech/Downloads/camunda-bpm-tomcat-7.15.0/server/apache-tomcat-9.0.43/webapps/manager] has finished in [1,106] ms
+19-Jul-2021 15:19:54.520 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/kiwitech/Downloads/camunda-bpm-tomcat-7.15.0/server/apache-tomcat-9.0.43/webapps/camunda]
+19-Jul-2021 15:19:55.989 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+19-Jul-2021 15:19:56.263 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/kiwitech/Downloads/camunda-bpm-tomcat-7.15.0/server/apache-tomcat-9.0.43/webapps/camunda] has finished in [1,743] ms
+19-Jul-2021 15:19:56.263 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/kiwitech/Downloads/camunda-bpm-tomcat-7.15.0/server/apache-tomcat-9.0.43/webapps/docs]
+19-Jul-2021 15:19:57.334 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+19-Jul-2021 15:19:57.335 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/kiwitech/Downloads/camunda-bpm-tomcat-7.15.0/server/apache-tomcat-9.0.43/webapps/docs] has finished in [1,072] ms
+19-Jul-2021 15:19:57.335 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/kiwitech/Downloads/camunda-bpm-tomcat-7.15.0/server/apache-tomcat-9.0.43/webapps/h2]
+19-Jul-2021 15:19:58.391 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+19-Jul-2021 15:19:58.430 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/kiwitech/Downloads/camunda-bpm-tomcat-7.15.0/server/apache-tomcat-9.0.43/webapps/h2] has finished in [1,095] ms
+19-Jul-2021 15:19:58.430 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/kiwitech/Downloads/camunda-bpm-tomcat-7.15.0/server/apache-tomcat-9.0.43/webapps/camunda-welcome]
+19-Jul-2021 15:19:59.620 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+19-Jul-2021 15:19:59.647 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/kiwitech/Downloads/camunda-bpm-tomcat-7.15.0/server/apache-tomcat-9.0.43/webapps/camunda-welcome] has finished in [1,217] ms
+19-Jul-2021 15:19:59.648 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/kiwitech/Downloads/camunda-bpm-tomcat-7.15.0/server/apache-tomcat-9.0.43/webapps/host-manager]
+19-Jul-2021 15:20:00.722 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+19-Jul-2021 15:20:00.724 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/kiwitech/Downloads/camunda-bpm-tomcat-7.15.0/server/apache-tomcat-9.0.43/webapps/host-manager] has finished in [1,076] ms
+19-Jul-2021 15:20:00.725 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/kiwitech/Downloads/camunda-bpm-tomcat-7.15.0/server/apache-tomcat-9.0.43/webapps/examples]
+19-Jul-2021 15:20:01.997 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+19-Jul-2021 15:20:02.049 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/kiwitech/Downloads/camunda-bpm-tomcat-7.15.0/server/apache-tomcat-9.0.43/webapps/examples] has finished in [1,325] ms
+19-Jul-2021 15:20:02.050 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/kiwitech/Downloads/camunda-bpm-tomcat-7.15.0/server/apache-tomcat-9.0.43/webapps/camunda-invoice]
+19-Jul-2021 15:20:03.116 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+19-Jul-2021 15:20:03.117 INFO [main] org.camunda.commons.logging.BaseLogger.logInfo ENGINE-07015 Detected @ProcessApplication class 'org.camunda.bpm.example.invoice.InvoiceProcessApplication'
+19-Jul-2021 15:20:03.123 INFO [main] org.camunda.commons.logging.BaseLogger.logInfo ENGINE-08024 Found processes.xml file at file:/home/kiwitech/Downloads/camunda-bpm-tomcat-7.15.0/server/apache-tomcat-9.0.43/webapps/camunda-invoice/WEB-INF/classes/META-INF/processes.xml
+19-Jul-2021 15:20:03.173 INFO [main] org.camunda.commons.logging.BaseLogger.logInfo ENGINE-08023 Deployment summary for process archive 'camunda-invoice': 
+
+        invoiceBusinessDecisions.dmn
+        invoice.v2.bpmn
+
+19-Jul-2021 15:20:03.498 INFO [main] org.camunda.commons.logging.BaseLogger.logInfo ENGINE-07021 ProcessApplication 'camunda-invoice' registered for DB deployments [59e05629-e3a7-11eb-9ef7-00e02d86b9a0, 5a10b503-e3a7-11eb-9ef7-00e02d86b9a0]. Will execute process definitions 
+
+        ReviewInvoice[version: 1, id: ReviewInvoice:1:59f1e25f-e3a7-11eb-9ef7-00e02d86b9a0]
+        invoice[version: 1, id: invoice:1:59f16d2d-e3a7-11eb-9ef7-00e02d86b9a0]
+        invoice[version: 2, id: invoice:2:5a145e86-e3a7-11eb-9ef7-00e02d86b9a0]
+Deployment does not provide any case definitions.
+19-Jul-2021 15:20:03.507 INFO [main] org.camunda.commons.logging.BaseLogger.logInfo SPIN-01010 Discovered Spin data format provider: org.camunda.spin.impl.json.jackson.format.JacksonJsonDataFormatProvider[name = application/json]
+19-Jul-2021 15:20:03.508 INFO [main] org.camunda.commons.logging.BaseLogger.logInfo SPIN-01010 Discovered Spin data format provider: org.camunda.spin.impl.xml.dom.format.DomXmlDataFormatProvider[name = application/xml]
+19-Jul-2021 15:20:03.508 INFO [main] org.camunda.commons.logging.BaseLogger.logInfo SPIN-01009 Discovered Spin data format: org.camunda.spin.impl.xml.dom.format.DomXmlDataFormat[name = application/xml]
+19-Jul-2021 15:20:03.509 INFO [main] org.camunda.commons.logging.BaseLogger.logInfo SPIN-01009 Discovered Spin data format: org.camunda.spin.impl.json.jackson.format.JacksonJsonDataFormat[name = application/json]
+19-Jul-2021 15:20:03.578 INFO [main] org.camunda.bpm.example.invoice.InvoiceProcessApplication.startProcessInstances No new instances of Invoice Receipt version 1 started, there are 3 instances running
+19-Jul-2021 15:20:03.632 INFO [main] org.camunda.bpm.example.invoice.InvoiceProcessApplication.startProcessInstances No new instances of Invoice Receipt version 2 started, there are 3 instances running
+19-Jul-2021 15:20:03.633 INFO [main] org.camunda.commons.logging.BaseLogger.logInfo ENGINE-08050 Process application camunda-invoice successfully deployed
+19-Jul-2021 15:20:03.639 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/kiwitech/Downloads/camunda-bpm-tomcat-7.15.0/server/apache-tomcat-9.0.43/webapps/camunda-invoice] has finished in [1,588] ms
+19-Jul-2021 15:20:03.643 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [25652] milliseconds
+19-Jul-2021 15:20:04.288 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+19-Jul-2021 15:20:04.291 INFO [main] org.camunda.commons.logging.BaseLogger.logInfo ENGINE-14015 Shutting down the JobExecutor[org.camunda.bpm.engine.impl.jobexecutor.RuntimeContainerJobExecutor]
+19-Jul-2021 15:20:04.291 INFO [19] org.camunda.commons.logging.BaseLogger.logInfo ENGINE-14020 JobExecutor[org.camunda.bpm.engine.impl.jobexecutor.RuntimeContainerJobExecutor] stopped job acquisition
+19-Jul-2021 15:20:04.324 INFO [main] org.camunda.commons.logging.BaseLogger.logInfo ENGINE-08051 Process application camunda-invoice undeployed
+19-Jul-2021 15:20:04.338 INFO [main] org.camunda.commons.logging.BaseLogger.logInfo ENGINE-00007 Process Engine default closed
+19-Jul-2021 15:20:04.338 INFO [main] org.camunda.commons.logging.BaseLogger.logInfo ENGINE-08049 Camunda Platform stopped at 'Apache Tomcat/9.0.43'
+19-Jul-2021 15:20:04.338 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+19-Jul-2021 15:20:04.338 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+19-Jul-2021 15:20:04.389 WARNING [main] org.camunda.commons.logging.BaseLogger.logWarn ENGINE-07017 Calling undeploy() on process application that is not deployed.
+19-Jul-2021 15:20:04.405 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+19-Jul-2021 15:20:04.405 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+19-Jul-2021 15:20:06.539 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.43
+19-Jul-2021 15:20:06.544 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Jan 28 2021 20:25:45 UTC
+19-Jul-2021 15:20:06.544 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.43.0
+19-Jul-2021 15:20:06.544 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+19-Jul-2021 15:20:06.544 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            5.4.0-77-generic
+19-Jul-2021 15:20:06.544 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+19-Jul-2021 15:20:06.544 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /usr/lib/jvm/java-11-openjdk-amd64
+19-Jul-2021 15:20:06.544 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           11.0.11+9-Ubuntu-0ubuntu2.18.04
+19-Jul-2021 15:20:06.545 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Ubuntu
+19-Jul-2021 15:20:06.545 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /home/kiwitech/Downloads/camunda-bpm-tomcat-7.15.0/server/apache-tomcat-9.0.43
+19-Jul-2021 15:20:06.545 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /home/kiwitech/Downloads/camunda-bpm-tomcat-7.15.0/server/apache-tomcat-9.0.43
+19-Jul-2021 15:20:06.554 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+19-Jul-2021 15:20:06.554 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+19-Jul-2021 15:20:06.554 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+19-Jul-2021 15:20:06.554 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+19-Jul-2021 15:20:06.554 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+19-Jul-2021 15:20:06.554 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=./server/apache-tomcat-9.0.43/conf/logging.properties
+19-Jul-2021 15:20:06.554 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+19-Jul-2021 15:20:06.554 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+19-Jul-2021 15:20:06.555 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+19-Jul-2021 15:20:06.555 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+19-Jul-2021 15:20:06.555 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Xmx512m
+19-Jul-2021 15:20:06.555 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+19-Jul-2021 15:20:06.555 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=./server/apache-tomcat-9.0.43
+19-Jul-2021 15:20:06.555 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=./server/apache-tomcat-9.0.43
+19-Jul-2021 15:20:06.555 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=./server/apache-tomcat-9.0.43/temp
+19-Jul-2021 15:20:06.556 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [/usr/java/packages/lib:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib]
+19-Jul-2021 15:20:06.825 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+19-Jul-2021 15:20:06.862 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [513] milliseconds
+19-Jul-2021 15:20:07.106 INFO [main] org.camunda.commons.logging.BaseLogger.logInfo ENGINE-08046 Found Camunda Platform configuration in CATALINA_BASE/CATALINA_HOME conf directory [/home/kiwitech/Downloads/camunda-bpm-tomcat-7.15.0/server/apache-tomcat-9.0.43/conf/bpm-platform.xml] at 'file:/home/kiwitech/Downloads/camunda-bpm-tomcat-7.15.0/server/apache-tomcat-9.0.43/conf/bpm-platform.xml'
+19-Jul-2021 15:20:07.216 INFO [main] org.camunda.commons.logging.BaseLogger.logInfo ENGINE-12003 Plugin 'ProcessApplicationEventListenerPlugin' activated on process engine 'default'
+19-Jul-2021 15:20:07.220 INFO [main] org.camunda.commons.logging.BaseLogger.logInfo ENGINE-12003 Plugin 'SpinProcessEnginePlugin' activated on process engine 'default'
+19-Jul-2021 15:20:07.223 INFO [main] org.camunda.commons.logging.BaseLogger.logInfo SPIN-01010 Discovered Spin data format provider: org.camunda.spin.impl.json.jackson.format.JacksonJsonDataFormatProvider[name = application/json]
+19-Jul-2021 15:20:07.348 INFO [main] org.camunda.commons.logging.BaseLogger.logInfo SPIN-01010 Discovered Spin data format provider: org.camunda.spin.impl.xml.dom.format.DomXmlDataFormatProvider[name = application/xml]
+19-Jul-2021 15:20:07.357 INFO [main] org.camunda.commons.logging.BaseLogger.logInfo SPIN-01009 Discovered Spin data format: org.camunda.spin.impl.xml.dom.format.DomXmlDataFormat[name = application/xml]
+19-Jul-2021 15:20:07.358 INFO [main] org.camunda.commons.logging.BaseLogger.logInfo SPIN-01009 Discovered Spin data format: org.camunda.spin.impl.json.jackson.format.JacksonJsonDataFormat[name = application/json]
+19-Jul-2021 15:20:07.358 INFO [main] org.camunda.commons.logging.BaseLogger.logInfo ENGINE-12003 Plugin 'ConnectProcessEnginePlugin' activated on process engine 'default'
+19-Jul-2021 15:20:07.364 INFO [main] org.camunda.commons.logging.BaseLogger.logInfo CNCT-01004 Discovered provider for connector id 'mail-send' and class 'org.camunda.bpm.extension.mail.send.SendMailConnector': 'org.camunda.bpm.extension.mail.send.SendMailProvider'
+19-Jul-2021 15:20:07.365 INFO [main] org.camunda.commons.logging.BaseLogger.logInfo CNCT-01004 Discovered provider for connector id 'mail-poll' and class 'org.camunda.bpm.extension.mail.poll.PollMailConnector': 'org.camunda.bpm.extension.mail.poll.PollMailProvider'
+19-Jul-2021 15:20:07.366 INFO [main] org.camunda.commons.logging.BaseLogger.logInfo CNCT-01004 Discovered provider for connector id 'mail-delete' and class 'org.camunda.bpm.extension.mail.delete.DeleteMailConnector': 'org.camunda.bpm.extension.mail.delete.DeleteMailProvider'
+19-Jul-2021 15:20:07.539 INFO [main] org.camunda.commons.logging.BaseLogger.logInfo CNCT-01004 Discovered provider for connector id 'http-connector' and class 'org.camunda.connect.httpclient.impl.HttpConnectorImpl': 'org.camunda.connect.httpclient.impl.HttpConnectorProviderImpl'
+19-Jul-2021 15:20:07.541 INFO [main] org.camunda.commons.logging.BaseLogger.logInfo CNCT-01004 Discovered provider for connector id 'soap-http-connector' and class 'org.camunda.connect.httpclient.soap.impl.SoapHttpConnectorImpl': 'org.camunda.connect.httpclient.soap.impl.SoapHttpConnectorProviderImpl'
+19-Jul-2021 15:20:07.691 INFO [main] org.camunda.commons.logging.BaseLogger.logInfo FEEL/SCALA-01001 Spin value mapper detected
+19-Jul-2021 15:20:07.745 INFO [main] org.camunda.feel.FeelEngine.<init> Engine created. [value-mapper: CompositeValueMapper(List(org.camunda.feel.impl.JavaValueMapper@161f6623, org.camunda.spin.plugin.impl.feel.integration.SpinValueMapper@3e15bb06)), function-provider: org.camunda.bpm.dmn.feel.impl.scala.function.CustomFunctionTransformer@4cb40e3b, clock: SystemClock, configuration: Configuration(false)]
+19-Jul-2021 15:20:10.938 INFO [main] org.camunda.commons.logging.BaseLogger.logInfo ENGINE-00001 Process Engine default created.
+19-Jul-2021 15:20:10.939 INFO [main] org.camunda.commons.logging.BaseLogger.logInfo ENGINE-14014 Starting up the JobExecutor[org.camunda.bpm.engine.impl.jobexecutor.RuntimeContainerJobExecutor].
+19-Jul-2021 15:20:10.941 INFO [Thread-5] org.camunda.commons.logging.BaseLogger.logInfo ENGINE-14018 JobExecutor[org.camunda.bpm.engine.impl.jobexecutor.RuntimeContainerJobExecutor] starting to acquire jobs
+19-Jul-2021 15:20:10.942 INFO [main] org.camunda.commons.logging.BaseLogger.logInfo ENGINE-08048 Camunda Platform sucessfully started at 'Apache Tomcat/9.0.43'.
+19-Jul-2021 15:20:10.953 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+19-Jul-2021 15:20:10.953 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.43]
+19-Jul-2021 15:20:10.962 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/kiwitech/Downloads/camunda-bpm-tomcat-7.15.0/server/apache-tomcat-9.0.43/webapps/ROOT]
+19-Jul-2021 15:20:12.870 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+19-Jul-2021 15:20:12.910 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/kiwitech/Downloads/camunda-bpm-tomcat-7.15.0/server/apache-tomcat-9.0.43/webapps/ROOT] has finished in [1,949] ms
+19-Jul-2021 15:20:12.910 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/kiwitech/Downloads/camunda-bpm-tomcat-7.15.0/server/apache-tomcat-9.0.43/webapps/engine-rest]
+19-Jul-2021 15:20:14.565 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+19-Jul-2021 15:20:14.711 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/kiwitech/Downloads/camunda-bpm-tomcat-7.15.0/server/apache-tomcat-9.0.43/webapps/engine-rest] has finished in [1,801] ms
+19-Jul-2021 15:20:14.712 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/kiwitech/Downloads/camunda-bpm-tomcat-7.15.0/server/apache-tomcat-9.0.43/webapps/manager]
+19-Jul-2021 15:20:15.958 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+19-Jul-2021 15:20:15.963 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/kiwitech/Downloads/camunda-bpm-tomcat-7.15.0/server/apache-tomcat-9.0.43/webapps/manager] has finished in [1,251] ms
+19-Jul-2021 15:20:15.963 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/kiwitech/Downloads/camunda-bpm-tomcat-7.15.0/server/apache-tomcat-9.0.43/webapps/camunda]
+19-Jul-2021 15:20:17.321 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+19-Jul-2021 15:20:17.581 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/kiwitech/Downloads/camunda-bpm-tomcat-7.15.0/server/apache-tomcat-9.0.43/webapps/camunda] has finished in [1,618] ms
+19-Jul-2021 15:20:17.582 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/kiwitech/Downloads/camunda-bpm-tomcat-7.15.0/server/apache-tomcat-9.0.43/webapps/docs]
+19-Jul-2021 15:20:18.721 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+19-Jul-2021 15:20:18.724 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/kiwitech/Downloads/camunda-bpm-tomcat-7.15.0/server/apache-tomcat-9.0.43/webapps/docs] has finished in [1,142] ms
+19-Jul-2021 15:20:18.724 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/kiwitech/Downloads/camunda-bpm-tomcat-7.15.0/server/apache-tomcat-9.0.43/webapps/h2]
+19-Jul-2021 15:20:19.829 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+19-Jul-2021 15:20:19.832 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/kiwitech/Downloads/camunda-bpm-tomcat-7.15.0/server/apache-tomcat-9.0.43/webapps/h2] has finished in [1,108] ms
+19-Jul-2021 15:20:19.832 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/kiwitech/Downloads/camunda-bpm-tomcat-7.15.0/server/apache-tomcat-9.0.43/webapps/camunda-welcome]
+19-Jul-2021 15:20:20.936 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+19-Jul-2021 15:20:20.938 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/kiwitech/Downloads/camunda-bpm-tomcat-7.15.0/server/apache-tomcat-9.0.43/webapps/camunda-welcome] has finished in [1,106] ms
+19-Jul-2021 15:20:20.938 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/kiwitech/Downloads/camunda-bpm-tomcat-7.15.0/server/apache-tomcat-9.0.43/webapps/host-manager]
+19-Jul-2021 15:20:22.035 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+19-Jul-2021 15:20:22.036 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/kiwitech/Downloads/camunda-bpm-tomcat-7.15.0/server/apache-tomcat-9.0.43/webapps/host-manager] has finished in [1,098] ms
+19-Jul-2021 15:20:22.037 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/kiwitech/Downloads/camunda-bpm-tomcat-7.15.0/server/apache-tomcat-9.0.43/webapps/examples]
+19-Jul-2021 15:20:23.306 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+19-Jul-2021 15:20:23.336 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/kiwitech/Downloads/camunda-bpm-tomcat-7.15.0/server/apache-tomcat-9.0.43/webapps/examples] has finished in [1,300] ms
+19-Jul-2021 15:20:23.336 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/kiwitech/Downloads/camunda-bpm-tomcat-7.15.0/server/apache-tomcat-9.0.43/webapps/camunda-invoice]
+19-Jul-2021 15:20:24.446 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+19-Jul-2021 15:20:24.446 INFO [main] org.camunda.commons.logging.BaseLogger.logInfo ENGINE-07015 Detected @ProcessApplication class 'org.camunda.bpm.example.invoice.InvoiceProcessApplication'
+19-Jul-2021 15:20:24.451 INFO [main] org.camunda.commons.logging.BaseLogger.logInfo ENGINE-08024 Found processes.xml file at file:/home/kiwitech/Downloads/camunda-bpm-tomcat-7.15.0/server/apache-tomcat-9.0.43/webapps/camunda-invoice/WEB-INF/classes/META-INF/processes.xml
+19-Jul-2021 15:20:24.471 INFO [main] org.camunda.commons.logging.BaseLogger.logInfo ENGINE-08023 Deployment summary for process archive 'camunda-invoice': 
+
+        invoiceBusinessDecisions.dmn
+        invoice.v2.bpmn
+
+19-Jul-2021 15:20:24.744 INFO [main] org.camunda.commons.logging.BaseLogger.logInfo ENGINE-07021 ProcessApplication 'camunda-invoice' registered for DB deployments [59e05629-e3a7-11eb-9ef7-00e02d86b9a0, 5a10b503-e3a7-11eb-9ef7-00e02d86b9a0]. Will execute process definitions 
+
+        ReviewInvoice[version: 1, id: ReviewInvoice:1:59f1e25f-e3a7-11eb-9ef7-00e02d86b9a0]
+        invoice[version: 1, id: invoice:1:59f16d2d-e3a7-11eb-9ef7-00e02d86b9a0]
+        invoice[version: 2, id: invoice:2:5a145e86-e3a7-11eb-9ef7-00e02d86b9a0]
+Deployment does not provide any case definitions.
+19-Jul-2021 15:20:24.748 INFO [main] org.camunda.commons.logging.BaseLogger.logInfo SPIN-01010 Discovered Spin data format provider: org.camunda.spin.impl.json.jackson.format.JacksonJsonDataFormatProvider[name = application/json]
+19-Jul-2021 15:20:24.749 INFO [main] org.camunda.commons.logging.BaseLogger.logInfo SPIN-01010 Discovered Spin data format provider: org.camunda.spin.impl.xml.dom.format.DomXmlDataFormatProvider[name = application/xml]
+19-Jul-2021 15:20:24.750 INFO [main] org.camunda.commons.logging.BaseLogger.logInfo SPIN-01009 Discovered Spin data format: org.camunda.spin.impl.xml.dom.format.DomXmlDataFormat[name = application/xml]
+19-Jul-2021 15:20:24.750 INFO [main] org.camunda.commons.logging.BaseLogger.logInfo SPIN-01009 Discovered Spin data format: org.camunda.spin.impl.json.jackson.format.JacksonJsonDataFormat[name = application/json]
+19-Jul-2021 15:20:24.820 INFO [main] org.camunda.bpm.example.invoice.InvoiceProcessApplication.startProcessInstances No new instances of Invoice Receipt version 1 started, there are 3 instances running
+19-Jul-2021 15:20:24.858 INFO [main] org.camunda.bpm.example.invoice.InvoiceProcessApplication.startProcessInstances No new instances of Invoice Receipt version 2 started, there are 3 instances running
+19-Jul-2021 15:20:24.858 INFO [main] org.camunda.commons.logging.BaseLogger.logInfo ENGINE-08050 Process application camunda-invoice successfully deployed
+19-Jul-2021 15:20:24.859 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/kiwitech/Downloads/camunda-bpm-tomcat-7.15.0/server/apache-tomcat-9.0.43/webapps/camunda-invoice] has finished in [1,523] ms
+19-Jul-2021 15:20:24.864 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+19-Jul-2021 15:20:24.882 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [18019] milliseconds
+19-Jul-2021 15:20:27.718 INFO [http-nio-8080-exec-8] org.jboss.resteasy.spi.ResteasyDeployment.processApplication RESTEASY002225: Deploying javax.ws.rs.core.Application: class org.camunda.bpm.cockpit.impl.web.CockpitApplication
+19-Jul-2021 15:20:27.729 INFO [http-nio-8080-exec-8] org.jboss.resteasy.spi.ResteasyDeployment.processApplication RESTEASY002200: Adding class resource org.camunda.bpm.cockpit.impl.plugin.resources.BaseRootResource from Application class org.camunda.bpm.cockpit.impl.web.CockpitApplication
+19-Jul-2021 15:20:27.730 INFO [http-nio-8080-exec-8] org.jboss.resteasy.spi.ResteasyDeployment.processApplication RESTEASY002205: Adding provider class com.fasterxml.jackson.jaxrs.json.JacksonJsonProvider from Application class org.camunda.bpm.cockpit.impl.web.CockpitApplication
+19-Jul-2021 15:20:27.730 INFO [http-nio-8080-exec-8] org.jboss.resteasy.spi.ResteasyDeployment.processApplication RESTEASY002205: Adding provider class org.camunda.bpm.engine.rest.exception.ExceptionHandler from Application class org.camunda.bpm.cockpit.impl.web.CockpitApplication
+19-Jul-2021 15:20:27.730 INFO [http-nio-8080-exec-8] org.jboss.resteasy.spi.ResteasyDeployment.processApplication RESTEASY002200: Adding class resource org.camunda.bpm.cockpit.impl.plugin.resources.CockpitPluginsRootResource from Application class org.camunda.bpm.cockpit.impl.web.CockpitApplication
+19-Jul-2021 15:20:27.730 INFO [http-nio-8080-exec-8] org.jboss.resteasy.spi.ResteasyDeployment.processApplication RESTEASY002205: Adding provider class org.camunda.bpm.engine.rest.exception.RestExceptionHandler from Application class org.camunda.bpm.cockpit.impl.web.CockpitApplication
+19-Jul-2021 15:20:27.730 INFO [http-nio-8080-exec-8] org.jboss.resteasy.spi.ResteasyDeployment.processApplication RESTEASY002205: Adding provider class org.camunda.bpm.engine.rest.mapper.JacksonConfigurator from Application class org.camunda.bpm.cockpit.impl.web.CockpitApplication
+19-Jul-2021 15:20:27.997 INFO [http-nio-8080-exec-10] org.jboss.resteasy.spi.ResteasyDeployment.processApplication RESTEASY002225: Deploying javax.ws.rs.core.Application: class org.camunda.bpm.webapp.impl.engine.EngineRestApplication
+19-Jul-2021 15:20:28.000 INFO [http-nio-8080-exec-10] org.jboss.resteasy.spi.ResteasyDeployment.processApplication RESTEASY002205: Adding provider class com.fasterxml.jackson.jaxrs.json.JacksonJsonProvider from Application class org.camunda.bpm.webapp.impl.engine.EngineRestApplication
+19-Jul-2021 15:20:28.001 INFO [http-nio-8080-exec-10] org.jboss.resteasy.spi.ResteasyDeployment.processApplication RESTEASY002205: Adding provider class org.camunda.bpm.engine.rest.mapper.MultipartPayloadProvider from Application class org.camunda.bpm.webapp.impl.engine.EngineRestApplication
+19-Jul-2021 15:20:28.001 INFO [http-nio-8080-exec-10] org.jboss.resteasy.spi.ResteasyDeployment.processApplication RESTEASY002205: Adding provider class org.camunda.bpm.engine.rest.exception.ExceptionHandler from Application class org.camunda.bpm.webapp.impl.engine.EngineRestApplication
+19-Jul-2021 15:20:28.001 INFO [http-nio-8080-exec-10] org.jboss.resteasy.spi.ResteasyDeployment.processApplication RESTEASY002200: Adding class resource org.camunda.bpm.engine.rest.impl.NamedProcessEngineRestServiceImpl from Application class org.camunda.bpm.webapp.impl.engine.EngineRestApplication
+19-Jul-2021 15:20:28.001 INFO [http-nio-8080-exec-10] org.jboss.resteasy.spi.ResteasyDeployment.processApplication RESTEASY002205: Adding provider class org.camunda.bpm.engine.rest.exception.ProcessEngineExceptionHandler from Application class org.camunda.bpm.webapp.impl.engine.EngineRestApplication
+19-Jul-2021 15:20:28.002 INFO [http-nio-8080-exec-10] org.jboss.resteasy.spi.ResteasyDeployment.processApplication RESTEASY002205: Adding provider class org.camunda.bpm.engine.rest.exception.JsonMappingExceptionHandler from Application class org.camunda.bpm.webapp.impl.engine.EngineRestApplication
+19-Jul-2021 15:20:28.002 INFO [http-nio-8080-exec-10] org.jboss.resteasy.spi.ResteasyDeployment.processApplication RESTEASY002205: Adding provider class org.camunda.bpm.engine.rest.exception.RestExceptionHandler from Application class org.camunda.bpm.webapp.impl.engine.EngineRestApplication
+19-Jul-2021 15:20:28.002 INFO [http-nio-8080-exec-10] org.jboss.resteasy.spi.ResteasyDeployment.processApplication RESTEASY002205: Adding provider class org.camunda.bpm.engine.rest.exception.JsonParseExceptionHandler from Application class org.camunda.bpm.webapp.impl.engine.EngineRestApplication
+19-Jul-2021 15:20:28.002 INFO [http-nio-8080-exec-10] org.jboss.resteasy.spi.ResteasyDeployment.processApplication RESTEASY002205: Adding provider class org.camunda.bpm.engine.rest.mapper.JacksonConfigurator from Application class org.camunda.bpm.webapp.impl.engine.EngineRestApplication
+19-Jul-2021 15:20:28.004 INFO [http-nio-8080-exec-10] org.jboss.resteasy.spi.ResteasyDeployment.processApplication RESTEASY002205: Adding provider class org.camunda.bpm.engine.rest.hal.JacksonHalJsonProvider from Application class org.camunda.bpm.webapp.impl.engine.EngineRestApplication
+19-Jul-2021 15:20:28.036 INFO [http-nio-8080-exec-1] org.jboss.resteasy.spi.ResteasyDeployment.processApplication RESTEASY002225: Deploying javax.ws.rs.core.Application: class org.camunda.bpm.admin.impl.web.AdminApplication
+19-Jul-2021 15:20:28.092 INFO [http-nio-8080-exec-1] org.jboss.resteasy.spi.ResteasyDeployment.processApplication RESTEASY002205: Adding provider class com.fasterxml.jackson.jaxrs.json.JacksonJsonProvider from Application class org.camunda.bpm.admin.impl.web.AdminApplication
+19-Jul-2021 15:20:28.093 INFO [http-nio-8080-exec-1] org.jboss.resteasy.spi.ResteasyDeployment.processApplication RESTEASY002200: Adding class resource org.camunda.bpm.admin.impl.web.SetupResource from Application class org.camunda.bpm.admin.impl.web.AdminApplication
+19-Jul-2021 15:20:28.093 INFO [http-nio-8080-exec-1] org.jboss.resteasy.spi.ResteasyDeployment.processApplication RESTEASY002200: Adding class resource org.camunda.bpm.admin.impl.plugin.resources.AdminPluginsRootResource from Application class org.camunda.bpm.admin.impl.web.AdminApplication
+19-Jul-2021 15:20:28.093 INFO [http-nio-8080-exec-1] org.jboss.resteasy.spi.ResteasyDeployment.processApplication RESTEASY002205: Adding provider class org.camunda.bpm.engine.rest.exception.ExceptionHandler from Application class org.camunda.bpm.admin.impl.web.AdminApplication
+19-Jul-2021 15:20:28.093 INFO [http-nio-8080-exec-1] org.jboss.resteasy.spi.ResteasyDeployment.processApplication RESTEASY002200: Adding class resource org.camunda.bpm.webapp.impl.security.auth.UserAuthenticationResource from Application class org.camunda.bpm.admin.impl.web.AdminApplication
+19-Jul-2021 15:20:28.094 INFO [http-nio-8080-exec-1] org.jboss.resteasy.spi.ResteasyDeployment.processApplication RESTEASY002205: Adding provider class org.camunda.bpm.engine.rest.exception.RestExceptionHandler from Application class org.camunda.bpm.admin.impl.web.AdminApplication
+19-Jul-2021 15:20:28.094 INFO [http-nio-8080-exec-1] org.jboss.resteasy.spi.ResteasyDeployment.processApplication RESTEASY002205: Adding provider class org.camunda.bpm.engine.rest.mapper.JacksonConfigurator from Application class org.camunda.bpm.admin.impl.web.AdminApplication
+19-Jul-2021 16:02:39.403 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+19-Jul-2021 16:02:39.404 INFO [main] org.camunda.commons.logging.BaseLogger.logInfo ENGINE-14015 Shutting down the JobExecutor[org.camunda.bpm.engine.impl.jobexecutor.RuntimeContainerJobExecutor]
+19-Jul-2021 16:02:39.405 INFO [20] org.camunda.commons.logging.BaseLogger.logInfo ENGINE-14020 JobExecutor[org.camunda.bpm.engine.impl.jobexecutor.RuntimeContainerJobExecutor] stopped job acquisition
+19-Jul-2021 16:02:39.428 INFO [main] org.camunda.commons.logging.BaseLogger.logInfo ENGINE-08051 Process application camunda-invoice undeployed
+19-Jul-2021 16:02:39.433 INFO [main] org.camunda.commons.logging.BaseLogger.logInfo ENGINE-00007 Process Engine default closed
+19-Jul-2021 16:02:39.433 INFO [main] org.camunda.commons.logging.BaseLogger.logInfo ENGINE-08049 Camunda Platform stopped at 'Apache Tomcat/9.0.43'
+19-Jul-2021 16:02:39.433 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+19-Jul-2021 16:02:39.440 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+19-Jul-2021 16:02:39.463 WARNING [main] org.camunda.commons.logging.BaseLogger.logWarn ENGINE-07017 Calling undeploy() on process application that is not deployed.
+19-Jul-2021 16:02:39.486 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+19-Jul-2021 16:02:39.538 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+19-Jul-2021 16:02:41.524 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.43
+19-Jul-2021 16:02:41.526 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Jan 28 2021 20:25:45 UTC
+19-Jul-2021 16:02:41.527 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.43.0
+19-Jul-2021 16:02:41.527 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+19-Jul-2021 16:02:41.527 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            5.4.0-77-generic
+19-Jul-2021 16:02:41.527 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+19-Jul-2021 16:02:41.527 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /usr/lib/jvm/java-11-openjdk-amd64
+19-Jul-2021 16:02:41.527 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           11.0.11+9-Ubuntu-0ubuntu2.18.04
+19-Jul-2021 16:02:41.527 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Ubuntu
+19-Jul-2021 16:02:41.527 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /home/kiwitech/Downloads/camunda-bpm-tomcat-7.15.0/server/apache-tomcat-9.0.43
+19-Jul-2021 16:02:41.527 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /home/kiwitech/Downloads/camunda-bpm-tomcat-7.15.0/server/apache-tomcat-9.0.43
+19-Jul-2021 16:02:41.543 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+19-Jul-2021 16:02:41.543 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+19-Jul-2021 16:02:41.543 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+19-Jul-2021 16:02:41.543 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+19-Jul-2021 16:02:41.543 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+19-Jul-2021 16:02:41.544 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=./server/apache-tomcat-9.0.43/conf/logging.properties
+19-Jul-2021 16:02:41.544 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+19-Jul-2021 16:02:41.544 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+19-Jul-2021 16:02:41.544 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+19-Jul-2021 16:02:41.544 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+19-Jul-2021 16:02:41.544 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Xmx512m
+19-Jul-2021 16:02:41.544 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+19-Jul-2021 16:02:41.544 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=./server/apache-tomcat-9.0.43
+19-Jul-2021 16:02:41.544 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=./server/apache-tomcat-9.0.43
+19-Jul-2021 16:02:41.544 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=./server/apache-tomcat-9.0.43/temp
+19-Jul-2021 16:02:41.545 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [/usr/java/packages/lib:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib]
+19-Jul-2021 16:02:41.813 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+19-Jul-2021 16:02:41.836 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [511] milliseconds
+19-Jul-2021 16:02:41.860 SEVERE [main] org.apache.tomcat.jdbc.pool.ConnectionPool.init Unable to create initial connections of pool.
+	java.sql.SQLException: Driver:org.h2.Driver@609e8838 returned null for URL:jdbc:postgresql://localhost:5432/camunda
+		at org.apache.tomcat.jdbc.pool.PooledConnection.connectUsingDriver(PooledConnection.java:338)
+		at org.apache.tomcat.jdbc.pool.PooledConnection.connect(PooledConnection.java:212)
+		at org.apache.tomcat.jdbc.pool.ConnectionPool.createConnection(ConnectionPool.java:744)
+		at org.apache.tomcat.jdbc.pool.ConnectionPool.borrowConnection(ConnectionPool.java:676)
+		at org.apache.tomcat.jdbc.pool.ConnectionPool.init(ConnectionPool.java:483)
+		at org.apache.tomcat.jdbc.pool.ConnectionPool.<init>(ConnectionPool.java:154)
+		at org.apache.tomcat.jdbc.pool.DataSourceProxy.pCreatePool(DataSourceProxy.java:118)
+		at org.apache.tomcat.jdbc.pool.DataSourceProxy.createPool(DataSourceProxy.java:107)
+		at org.apache.tomcat.jdbc.pool.DataSourceFactory.createDataSource(DataSourceFactory.java:560)
+		at org.apache.tomcat.jdbc.pool.DataSourceFactory.getObjectInstance(DataSourceFactory.java:244)
+		at org.apache.naming.factory.FactoryBase.getObjectInstance(FactoryBase.java:96)
+		at java.naming/javax.naming.spi.NamingManager.getObjectInstance(NamingManager.java:341)
+		at org.apache.naming.NamingContext.lookup(NamingContext.java:857)
+		at org.apache.naming.NamingContext.lookup(NamingContext.java:160)
+		at org.apache.naming.NamingContext.lookup(NamingContext.java:843)
+		at org.apache.naming.NamingContext.lookup(NamingContext.java:174)
+		at org.apache.catalina.core.NamingContextListener.addResource(NamingContextListener.java:1015)
+		at org.apache.catalina.core.NamingContextListener.createNamingContext(NamingContextListener.java:557)
+		at org.apache.catalina.core.NamingContextListener.lifecycleEvent(NamingContextListener.java:253)
+		at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:123)
+		at org.apache.catalina.core.StandardServer.startInternal(StandardServer.java:922)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.startup.Catalina.start(Catalina.java:772)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+		at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+		at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:342)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:473)
+19-Jul-2021 16:02:41.861 WARNING [main] org.apache.naming.NamingContext.lookup Unexpected exception resolving reference
+	java.sql.SQLException: Driver:org.h2.Driver@609e8838 returned null for URL:jdbc:postgresql://localhost:5432/camunda
+		at org.apache.tomcat.jdbc.pool.PooledConnection.connectUsingDriver(PooledConnection.java:338)
+		at org.apache.tomcat.jdbc.pool.PooledConnection.connect(PooledConnection.java:212)
+		at org.apache.tomcat.jdbc.pool.ConnectionPool.createConnection(ConnectionPool.java:744)
+		at org.apache.tomcat.jdbc.pool.ConnectionPool.borrowConnection(ConnectionPool.java:676)
+		at org.apache.tomcat.jdbc.pool.ConnectionPool.init(ConnectionPool.java:483)
+		at org.apache.tomcat.jdbc.pool.ConnectionPool.<init>(ConnectionPool.java:154)
+		at org.apache.tomcat.jdbc.pool.DataSourceProxy.pCreatePool(DataSourceProxy.java:118)
+		at org.apache.tomcat.jdbc.pool.DataSourceProxy.createPool(DataSourceProxy.java:107)
+		at org.apache.tomcat.jdbc.pool.DataSourceFactory.createDataSource(DataSourceFactory.java:560)
+		at org.apache.tomcat.jdbc.pool.DataSourceFactory.getObjectInstance(DataSourceFactory.java:244)
+		at org.apache.naming.factory.FactoryBase.getObjectInstance(FactoryBase.java:96)
+		at java.naming/javax.naming.spi.NamingManager.getObjectInstance(NamingManager.java:341)
+		at org.apache.naming.NamingContext.lookup(NamingContext.java:857)
+		at org.apache.naming.NamingContext.lookup(NamingContext.java:160)
+		at org.apache.naming.NamingContext.lookup(NamingContext.java:843)
+		at org.apache.naming.NamingContext.lookup(NamingContext.java:174)
+		at org.apache.catalina.core.NamingContextListener.addResource(NamingContextListener.java:1015)
+		at org.apache.catalina.core.NamingContextListener.createNamingContext(NamingContextListener.java:557)
+		at org.apache.catalina.core.NamingContextListener.lifecycleEvent(NamingContextListener.java:253)
+		at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:123)
+		at org.apache.catalina.core.StandardServer.startInternal(StandardServer.java:922)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.startup.Catalina.start(Catalina.java:772)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+		at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+		at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:342)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:473)
+19-Jul-2021 16:02:41.862 WARNING [main] org.apache.catalina.core.NamingContextListener.addResource naming.jmxRegistrationFailed
+19-Jul-2021 16:02:41.894 INFO [main] org.camunda.commons.logging.BaseLogger.logInfo ENGINE-08046 Found Camunda Platform configuration in CATALINA_BASE/CATALINA_HOME conf directory [/home/kiwitech/Downloads/camunda-bpm-tomcat-7.15.0/server/apache-tomcat-9.0.43/conf/bpm-platform.xml] at 'file:/home/kiwitech/Downloads/camunda-bpm-tomcat-7.15.0/server/apache-tomcat-9.0.43/conf/bpm-platform.xml'
+19-Jul-2021 16:02:42.010 INFO [main] org.camunda.commons.logging.BaseLogger.logInfo ENGINE-12003 Plugin 'ProcessApplicationEventListenerPlugin' activated on process engine 'default'
+19-Jul-2021 16:02:42.015 INFO [main] org.camunda.commons.logging.BaseLogger.logInfo ENGINE-12003 Plugin 'SpinProcessEnginePlugin' activated on process engine 'default'
+19-Jul-2021 16:02:42.018 INFO [main] org.camunda.commons.logging.BaseLogger.logInfo SPIN-01010 Discovered Spin data format provider: org.camunda.spin.impl.json.jackson.format.JacksonJsonDataFormatProvider[name = application/json]
+19-Jul-2021 16:02:42.144 INFO [main] org.camunda.commons.logging.BaseLogger.logInfo SPIN-01010 Discovered Spin data format provider: org.camunda.spin.impl.xml.dom.format.DomXmlDataFormatProvider[name = application/xml]
+19-Jul-2021 16:02:42.152 INFO [main] org.camunda.commons.logging.BaseLogger.logInfo SPIN-01009 Discovered Spin data format: org.camunda.spin.impl.xml.dom.format.DomXmlDataFormat[name = application/xml]
+19-Jul-2021 16:02:42.152 INFO [main] org.camunda.commons.logging.BaseLogger.logInfo SPIN-01009 Discovered Spin data format: org.camunda.spin.impl.json.jackson.format.JacksonJsonDataFormat[name = application/json]
+19-Jul-2021 16:02:42.152 INFO [main] org.camunda.commons.logging.BaseLogger.logInfo ENGINE-12003 Plugin 'ConnectProcessEnginePlugin' activated on process engine 'default'
+19-Jul-2021 16:02:42.158 INFO [main] org.camunda.commons.logging.BaseLogger.logInfo CNCT-01004 Discovered provider for connector id 'mail-send' and class 'org.camunda.bpm.extension.mail.send.SendMailConnector': 'org.camunda.bpm.extension.mail.send.SendMailProvider'
+19-Jul-2021 16:02:42.159 INFO [main] org.camunda.commons.logging.BaseLogger.logInfo CNCT-01004 Discovered provider for connector id 'mail-poll' and class 'org.camunda.bpm.extension.mail.poll.PollMailConnector': 'org.camunda.bpm.extension.mail.poll.PollMailProvider'
+19-Jul-2021 16:02:42.160 INFO [main] org.camunda.commons.logging.BaseLogger.logInfo CNCT-01004 Discovered provider for connector id 'mail-delete' and class 'org.camunda.bpm.extension.mail.delete.DeleteMailConnector': 'org.camunda.bpm.extension.mail.delete.DeleteMailProvider'
+19-Jul-2021 16:02:42.352 INFO [main] org.camunda.commons.logging.BaseLogger.logInfo CNCT-01004 Discovered provider for connector id 'http-connector' and class 'org.camunda.connect.httpclient.impl.HttpConnectorImpl': 'org.camunda.connect.httpclient.impl.HttpConnectorProviderImpl'
+19-Jul-2021 16:02:42.355 INFO [main] org.camunda.commons.logging.BaseLogger.logInfo CNCT-01004 Discovered provider for connector id 'soap-http-connector' and class 'org.camunda.connect.httpclient.soap.impl.SoapHttpConnectorImpl': 'org.camunda.connect.httpclient.soap.impl.SoapHttpConnectorProviderImpl'
+19-Jul-2021 16:02:42.504 INFO [main] org.camunda.commons.logging.BaseLogger.logInfo FEEL/SCALA-01001 Spin value mapper detected
+19-Jul-2021 16:02:42.550 INFO [main] org.camunda.feel.FeelEngine.<init> Engine created. [value-mapper: CompositeValueMapper(List(org.camunda.feel.impl.JavaValueMapper@4ce14f05, org.camunda.spin.plugin.impl.feel.integration.SpinValueMapper@71dfcf21)), function-provider: org.camunda.bpm.dmn.feel.impl.scala.function.CustomFunctionTransformer@67110f71, clock: SystemClock, configuration: Configuration(false)]
+19-Jul-2021 16:02:42.608 SEVERE [main] org.apache.tomcat.jdbc.pool.ConnectionPool.init Unable to create initial connections of pool.
+	java.sql.SQLException: Driver:org.h2.Driver@68fe48d7 returned null for URL:jdbc:postgresql://localhost:5432/camunda
+		at org.apache.tomcat.jdbc.pool.PooledConnection.connectUsingDriver(PooledConnection.java:338)
+		at org.apache.tomcat.jdbc.pool.PooledConnection.connect(PooledConnection.java:212)
+		at org.apache.tomcat.jdbc.pool.ConnectionPool.createConnection(ConnectionPool.java:744)
+		at org.apache.tomcat.jdbc.pool.ConnectionPool.borrowConnection(ConnectionPool.java:676)
+		at org.apache.tomcat.jdbc.pool.ConnectionPool.init(ConnectionPool.java:483)
+		at org.apache.tomcat.jdbc.pool.ConnectionPool.<init>(ConnectionPool.java:154)
+		at org.apache.tomcat.jdbc.pool.DataSourceProxy.pCreatePool(DataSourceProxy.java:118)
+		at org.apache.tomcat.jdbc.pool.DataSourceProxy.createPool(DataSourceProxy.java:107)
+		at org.apache.tomcat.jdbc.pool.DataSourceFactory.createDataSource(DataSourceFactory.java:560)
+		at org.apache.tomcat.jdbc.pool.DataSourceFactory.getObjectInstance(DataSourceFactory.java:244)
+		at org.apache.naming.factory.FactoryBase.getObjectInstance(FactoryBase.java:96)
+		at java.naming/javax.naming.spi.NamingManager.getObjectInstance(NamingManager.java:341)
+		at org.apache.naming.NamingContext.lookup(NamingContext.java:857)
+		at org.apache.naming.NamingContext.lookup(NamingContext.java:160)
+		at org.apache.naming.NamingContext.lookup(NamingContext.java:843)
+		at org.apache.naming.NamingContext.lookup(NamingContext.java:174)
+		at org.apache.naming.SelectorContext.lookup(SelectorContext.java:163)
+		at java.naming/javax.naming.InitialContext.lookup(InitialContext.java:409)
+		at org.camunda.bpm.engine.impl.cfg.ProcessEngineConfigurationImpl.initDataSource(ProcessEngineConfigurationImpl.java:1484)
+		at org.camunda.bpm.engine.impl.cfg.ProcessEngineConfigurationImpl.init(ProcessEngineConfigurationImpl.java:1006)
+		at org.camunda.bpm.engine.impl.cfg.ProcessEngineConfigurationImpl.buildProcessEngine(ProcessEngineConfigurationImpl.java:977)
+		at org.camunda.bpm.container.impl.jmx.services.JmxManagedProcessEngineController.start(JmxManagedProcessEngineController.java:38)
+		at org.camunda.bpm.container.impl.jmx.MBeanServiceContainer.startService(MBeanServiceContainer.java:77)
+		at org.camunda.bpm.container.impl.jmx.MBeanServiceContainer.startService(MBeanServiceContainer.java:63)
+		at org.camunda.bpm.container.impl.deployment.StartProcessEngineStep.performOperationStep(StartProcessEngineStep.java:119)
+		at org.camunda.bpm.container.impl.spi.DeploymentOperation.execute(DeploymentOperation.java:120)
+		at org.camunda.bpm.container.impl.jmx.MBeanServiceContainer.executeDeploymentOperation(MBeanServiceContainer.java:160)
+		at org.camunda.bpm.container.impl.spi.DeploymentOperation$DeploymentOperationBuilder.execute(DeploymentOperation.java:216)
+		at org.camunda.bpm.container.impl.tomcat.TomcatBpmPlatformBootstrap.deployBpmPlatform(TomcatBpmPlatformBootstrap.java:83)
+		at org.camunda.bpm.container.impl.tomcat.TomcatBpmPlatformBootstrap.lifecycleEvent(TomcatBpmPlatformBootstrap.java:61)
+		at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:123)
+		at org.apache.catalina.util.LifecycleBase.setStateInternal(LifecycleBase.java:423)
+		at org.apache.catalina.util.LifecycleBase.setState(LifecycleBase.java:366)
+		at org.apache.catalina.core.StandardServer.startInternal(StandardServer.java:923)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.startup.Catalina.start(Catalina.java:772)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+		at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+		at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:342)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:473)
+19-Jul-2021 16:02:42.609 WARNING [main] org.apache.naming.NamingContext.lookup Unexpected exception resolving reference
+	java.sql.SQLException: Driver:org.h2.Driver@68fe48d7 returned null for URL:jdbc:postgresql://localhost:5432/camunda
+		at org.apache.tomcat.jdbc.pool.PooledConnection.connectUsingDriver(PooledConnection.java:338)
+		at org.apache.tomcat.jdbc.pool.PooledConnection.connect(PooledConnection.java:212)
+		at org.apache.tomcat.jdbc.pool.ConnectionPool.createConnection(ConnectionPool.java:744)
+		at org.apache.tomcat.jdbc.pool.ConnectionPool.borrowConnection(ConnectionPool.java:676)
+		at org.apache.tomcat.jdbc.pool.ConnectionPool.init(ConnectionPool.java:483)
+		at org.apache.tomcat.jdbc.pool.ConnectionPool.<init>(ConnectionPool.java:154)
+		at org.apache.tomcat.jdbc.pool.DataSourceProxy.pCreatePool(DataSourceProxy.java:118)
+		at org.apache.tomcat.jdbc.pool.DataSourceProxy.createPool(DataSourceProxy.java:107)
+		at org.apache.tomcat.jdbc.pool.DataSourceFactory.createDataSource(DataSourceFactory.java:560)
+		at org.apache.tomcat.jdbc.pool.DataSourceFactory.getObjectInstance(DataSourceFactory.java:244)
+		at org.apache.naming.factory.FactoryBase.getObjectInstance(FactoryBase.java:96)
+		at java.naming/javax.naming.spi.NamingManager.getObjectInstance(NamingManager.java:341)
+		at org.apache.naming.NamingContext.lookup(NamingContext.java:857)
+		at org.apache.naming.NamingContext.lookup(NamingContext.java:160)
+		at org.apache.naming.NamingContext.lookup(NamingContext.java:843)
+		at org.apache.naming.NamingContext.lookup(NamingContext.java:174)
+		at org.apache.naming.SelectorContext.lookup(SelectorContext.java:163)
+		at java.naming/javax.naming.InitialContext.lookup(InitialContext.java:409)
+		at org.camunda.bpm.engine.impl.cfg.ProcessEngineConfigurationImpl.initDataSource(ProcessEngineConfigurationImpl.java:1484)
+		at org.camunda.bpm.engine.impl.cfg.ProcessEngineConfigurationImpl.init(ProcessEngineConfigurationImpl.java:1006)
+		at org.camunda.bpm.engine.impl.cfg.ProcessEngineConfigurationImpl.buildProcessEngine(ProcessEngineConfigurationImpl.java:977)
+		at org.camunda.bpm.container.impl.jmx.services.JmxManagedProcessEngineController.start(JmxManagedProcessEngineController.java:38)
+		at org.camunda.bpm.container.impl.jmx.MBeanServiceContainer.startService(MBeanServiceContainer.java:77)
+		at org.camunda.bpm.container.impl.jmx.MBeanServiceContainer.startService(MBeanServiceContainer.java:63)
+		at org.camunda.bpm.container.impl.deployment.StartProcessEngineStep.performOperationStep(StartProcessEngineStep.java:119)
+		at org.camunda.bpm.container.impl.spi.DeploymentOperation.execute(DeploymentOperation.java:120)
+		at org.camunda.bpm.container.impl.jmx.MBeanServiceContainer.executeDeploymentOperation(MBeanServiceContainer.java:160)
+		at org.camunda.bpm.container.impl.spi.DeploymentOperation$DeploymentOperationBuilder.execute(DeploymentOperation.java:216)
+		at org.camunda.bpm.container.impl.tomcat.TomcatBpmPlatformBootstrap.deployBpmPlatform(TomcatBpmPlatformBootstrap.java:83)
+		at org.camunda.bpm.container.impl.tomcat.TomcatBpmPlatformBootstrap.lifecycleEvent(TomcatBpmPlatformBootstrap.java:61)
+		at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:123)
+		at org.apache.catalina.util.LifecycleBase.setStateInternal(LifecycleBase.java:423)
+		at org.apache.catalina.util.LifecycleBase.setState(LifecycleBase.java:366)
+		at org.apache.catalina.core.StandardServer.startInternal(StandardServer.java:923)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.startup.Catalina.start(Catalina.java:772)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+		at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+		at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:342)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:473)
+19-Jul-2021 16:02:42.610 SEVERE [main] org.apache.catalina.startup.Catalina.start The required Server component failed to start so Tomcat is unable to start.
+	org.apache.catalina.LifecycleException: Failed to start component [StandardServer[8005]]
+		at org.apache.catalina.util.LifecycleBase.handleSubClassException(LifecycleBase.java:440)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:198)
+		at org.apache.catalina.startup.Catalina.start(Catalina.java:772)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+		at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+		at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:342)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:473)
+	Caused by: org.camunda.bpm.engine.ProcessEngineException: ENGINE-08043 Exception while performing 'deploy BPM platform' => 'Start process engine default': couldn't lookup datasource from java:jdbc/ProcessEngine: Unexpected exception resolving reference
+		at org.camunda.bpm.container.impl.ContainerIntegrationLogger.exceptionWhilePerformingOperationStep(ContainerIntegrationLogger.java:316)
+		at org.camunda.bpm.container.impl.spi.DeploymentOperation.execute(DeploymentOperation.java:136)
+		at org.camunda.bpm.container.impl.jmx.MBeanServiceContainer.executeDeploymentOperation(MBeanServiceContainer.java:160)
+		at org.camunda.bpm.container.impl.spi.DeploymentOperation$DeploymentOperationBuilder.execute(DeploymentOperation.java:216)
+		at org.camunda.bpm.container.impl.tomcat.TomcatBpmPlatformBootstrap.deployBpmPlatform(TomcatBpmPlatformBootstrap.java:83)
+		at org.camunda.bpm.container.impl.tomcat.TomcatBpmPlatformBootstrap.lifecycleEvent(TomcatBpmPlatformBootstrap.java:61)
+		at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:123)
+		at org.apache.catalina.util.LifecycleBase.setStateInternal(LifecycleBase.java:423)
+		at org.apache.catalina.util.LifecycleBase.setState(LifecycleBase.java:366)
+		at org.apache.catalina.core.StandardServer.startInternal(StandardServer.java:923)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		... 7 more
+	Caused by: org.camunda.bpm.engine.ProcessEngineException: couldn't lookup datasource from java:jdbc/ProcessEngine: Unexpected exception resolving reference
+		at org.camunda.bpm.engine.impl.cfg.ProcessEngineConfigurationImpl.initDataSource(ProcessEngineConfigurationImpl.java:1486)
+		at org.camunda.bpm.engine.impl.cfg.ProcessEngineConfigurationImpl.init(ProcessEngineConfigurationImpl.java:1006)
+		at org.camunda.bpm.engine.impl.cfg.ProcessEngineConfigurationImpl.buildProcessEngine(ProcessEngineConfigurationImpl.java:977)
+		at org.camunda.bpm.container.impl.jmx.services.JmxManagedProcessEngineController.start(JmxManagedProcessEngineController.java:38)
+		at org.camunda.bpm.container.impl.jmx.MBeanServiceContainer.startService(MBeanServiceContainer.java:77)
+		at org.camunda.bpm.container.impl.jmx.MBeanServiceContainer.startService(MBeanServiceContainer.java:63)
+		at org.camunda.bpm.container.impl.deployment.StartProcessEngineStep.performOperationStep(StartProcessEngineStep.java:119)
+		at org.camunda.bpm.container.impl.spi.DeploymentOperation.execute(DeploymentOperation.java:120)
+		... 16 more
+	Caused by: javax.naming.NamingException: Unexpected exception resolving reference [Root exception is java.sql.SQLException: Driver:org.h2.Driver@68fe48d7 returned null for URL:jdbc:postgresql://localhost:5432/camunda]
+		at org.apache.naming.NamingContext.lookup(NamingContext.java:882)
+		at org.apache.naming.NamingContext.lookup(NamingContext.java:160)
+		at org.apache.naming.NamingContext.lookup(NamingContext.java:843)
+		at org.apache.naming.NamingContext.lookup(NamingContext.java:174)
+		at org.apache.naming.SelectorContext.lookup(SelectorContext.java:163)
+		at java.naming/javax.naming.InitialContext.lookup(InitialContext.java:409)
+		at org.camunda.bpm.engine.impl.cfg.ProcessEngineConfigurationImpl.initDataSource(ProcessEngineConfigurationImpl.java:1484)
+		... 23 more
+	Caused by: java.sql.SQLException: Driver:org.h2.Driver@68fe48d7 returned null for URL:jdbc:postgresql://localhost:5432/camunda
+		at org.apache.tomcat.jdbc.pool.PooledConnection.connectUsingDriver(PooledConnection.java:338)
+		at org.apache.tomcat.jdbc.pool.PooledConnection.connect(PooledConnection.java:212)
+		at org.apache.tomcat.jdbc.pool.ConnectionPool.createConnection(ConnectionPool.java:744)
+		at org.apache.tomcat.jdbc.pool.ConnectionPool.borrowConnection(ConnectionPool.java:676)
+		at org.apache.tomcat.jdbc.pool.ConnectionPool.init(ConnectionPool.java:483)
+		at org.apache.tomcat.jdbc.pool.ConnectionPool.<init>(ConnectionPool.java:154)
+		at org.apache.tomcat.jdbc.pool.DataSourceProxy.pCreatePool(DataSourceProxy.java:118)
+		at org.apache.tomcat.jdbc.pool.DataSourceProxy.createPool(DataSourceProxy.java:107)
+		at org.apache.tomcat.jdbc.pool.DataSourceFactory.createDataSource(DataSourceFactory.java:560)
+		at org.apache.tomcat.jdbc.pool.DataSourceFactory.getObjectInstance(DataSourceFactory.java:244)
+		at org.apache.naming.factory.FactoryBase.getObjectInstance(FactoryBase.java:96)
+		at java.naming/javax.naming.spi.NamingManager.getObjectInstance(NamingManager.java:341)
+		at org.apache.naming.NamingContext.lookup(NamingContext.java:857)
+		... 29 more
+19-Jul-2021 16:02:42.618 SEVERE [main] org.camunda.commons.logging.BaseLogger.logError ENGINE-08044 Exception while performing 'Stop managed thread pool': Cannot stop service org.camunda.bpm.platform:type=executor-service: no such service registered: service is null
+	org.camunda.bpm.engine.exception.NullValueException: Cannot stop service org.camunda.bpm.platform:type=executor-service: no such service registered: service is null
+		at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+		at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+		at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+		at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+		at org.camunda.bpm.engine.impl.util.EnsureUtil.generateException(EnsureUtil.java:394)
+		at org.camunda.bpm.engine.impl.util.EnsureUtil.ensureNotNull(EnsureUtil.java:55)
+		at org.camunda.bpm.engine.impl.util.EnsureUtil.ensureNotNull(EnsureUtil.java:50)
+		at org.camunda.bpm.container.impl.jmx.MBeanServiceContainer.stopService(MBeanServiceContainer.java:121)
+		at org.camunda.bpm.container.impl.jmx.MBeanServiceContainer.stopService(MBeanServiceContainer.java:109)
+		at org.camunda.bpm.container.impl.deployment.jobexecutor.StopManagedThreadPoolStep.performOperationStep(StopManagedThreadPoolStep.java:37)
+		at org.camunda.bpm.container.impl.spi.DeploymentOperation.execute(DeploymentOperation.java:120)
+		at org.camunda.bpm.container.impl.jmx.MBeanServiceContainer.executeDeploymentOperation(MBeanServiceContainer.java:160)
+		at org.camunda.bpm.container.impl.spi.DeploymentOperation$DeploymentOperationBuilder.execute(DeploymentOperation.java:216)
+		at org.camunda.bpm.container.impl.tomcat.TomcatBpmPlatformBootstrap.undeployBpmPlatform(TomcatBpmPlatformBootstrap.java:101)
+		at org.camunda.bpm.container.impl.tomcat.TomcatBpmPlatformBootstrap.lifecycleEvent(TomcatBpmPlatformBootstrap.java:66)
+		at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:123)
+		at org.apache.catalina.util.LifecycleBase.setStateInternal(LifecycleBase.java:423)
+		at org.apache.catalina.util.LifecycleBase.setState(LifecycleBase.java:366)
+		at org.apache.catalina.core.StandardServer.stopInternal(StandardServer.java:967)
+		at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:257)
+		at org.apache.catalina.util.LifecycleBase.destroy(LifecycleBase.java:293)
+		at org.apache.catalina.startup.Catalina.start(Catalina.java:776)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+		at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+		at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:342)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:473)
+19-Jul-2021 16:02:42.619 SEVERE [main] org.camunda.commons.logging.BaseLogger.logError ENGINE-08044 Exception while performing 'Unregistering BPM Platform Plugins': Cannot stop service org.camunda.bpm.platform:type=bpm-platform-plugins: no such service registered: service is null
+	org.camunda.bpm.engine.exception.NullValueException: Cannot stop service org.camunda.bpm.platform:type=bpm-platform-plugins: no such service registered: service is null
+		at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+		at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+		at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+		at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+		at org.camunda.bpm.engine.impl.util.EnsureUtil.generateException(EnsureUtil.java:394)
+		at org.camunda.bpm.engine.impl.util.EnsureUtil.ensureNotNull(EnsureUtil.java:55)
+		at org.camunda.bpm.engine.impl.util.EnsureUtil.ensureNotNull(EnsureUtil.java:50)
+		at org.camunda.bpm.container.impl.jmx.MBeanServiceContainer.stopService(MBeanServiceContainer.java:121)
+		at org.camunda.bpm.container.impl.jmx.MBeanServiceContainer.stopService(MBeanServiceContainer.java:109)
+		at org.camunda.bpm.container.impl.deployment.UnregisterBpmPlatformPluginsStep.performOperationStep(UnregisterBpmPlatformPluginsStep.java:37)
+		at org.camunda.bpm.container.impl.spi.DeploymentOperation.execute(DeploymentOperation.java:120)
+		at org.camunda.bpm.container.impl.jmx.MBeanServiceContainer.executeDeploymentOperation(MBeanServiceContainer.java:160)
+		at org.camunda.bpm.container.impl.spi.DeploymentOperation$DeploymentOperationBuilder.execute(DeploymentOperation.java:216)
+		at org.camunda.bpm.container.impl.tomcat.TomcatBpmPlatformBootstrap.undeployBpmPlatform(TomcatBpmPlatformBootstrap.java:101)
+		at org.camunda.bpm.container.impl.tomcat.TomcatBpmPlatformBootstrap.lifecycleEvent(TomcatBpmPlatformBootstrap.java:66)
+		at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:123)
+		at org.apache.catalina.util.LifecycleBase.setStateInternal(LifecycleBase.java:423)
+		at org.apache.catalina.util.LifecycleBase.setState(LifecycleBase.java:366)
+		at org.apache.catalina.core.StandardServer.stopInternal(StandardServer.java:967)
+		at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:257)
+		at org.apache.catalina.util.LifecycleBase.destroy(LifecycleBase.java:293)
+		at org.apache.catalina.startup.Catalina.start(Catalina.java:776)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+		at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+		at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:342)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:473)
+19-Jul-2021 16:02:42.619 INFO [main] org.camunda.commons.logging.BaseLogger.logInfo ENGINE-08049 Camunda Platform stopped at 'Apache Tomcat/9.0.43'
+19-Jul-2021 16:02:42.620 SEVERE [main] org.apache.catalina.util.LifecycleBase.destroy Called stop() on failed component [StandardServer[8005]] to trigger clean-up but it failed too
+	org.apache.catalina.LifecycleException: An invalid Lifecycle transition was attempted ([before_stop]) for component [StandardService[Catalina]] in state [INITIALIZED]
+		at org.apache.catalina.util.LifecycleBase.invalidTransition(LifecycleBase.java:430)
+		at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:244)
+		at org.apache.catalina.core.StandardServer.stopInternal(StandardServer.java:982)
+		at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:257)
+		at org.apache.catalina.util.LifecycleBase.destroy(LifecycleBase.java:293)
+		at org.apache.catalina.startup.Catalina.start(Catalina.java:776)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+		at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+		at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:342)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:473)
+19-Jul-2021 16:02:42.621 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+19-Jul-2021 16:22:53.260 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.43
+19-Jul-2021 16:22:53.262 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Jan 28 2021 20:25:45 UTC
+19-Jul-2021 16:22:53.262 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.43.0
+19-Jul-2021 16:22:53.262 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+19-Jul-2021 16:22:53.262 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            5.4.0-77-generic
+19-Jul-2021 16:22:53.263 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+19-Jul-2021 16:22:53.263 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /usr/lib/jvm/java-11-openjdk-amd64
+19-Jul-2021 16:22:53.263 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           11.0.11+9-Ubuntu-0ubuntu2.18.04
+19-Jul-2021 16:22:53.263 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Ubuntu
+19-Jul-2021 16:22:53.263 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /home/kiwitech/Downloads/camunda-bpm-tomcat-7.15.0/server/apache-tomcat-9.0.43
+19-Jul-2021 16:22:53.263 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /home/kiwitech/Downloads/camunda-bpm-tomcat-7.15.0/server/apache-tomcat-9.0.43
+19-Jul-2021 16:22:53.272 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+19-Jul-2021 16:22:53.272 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+19-Jul-2021 16:22:53.272 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+19-Jul-2021 16:22:53.272 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+19-Jul-2021 16:22:53.273 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+19-Jul-2021 16:22:53.273 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=./server/apache-tomcat-9.0.43/conf/logging.properties
+19-Jul-2021 16:22:53.273 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+19-Jul-2021 16:22:53.273 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+19-Jul-2021 16:22:53.273 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+19-Jul-2021 16:22:53.273 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+19-Jul-2021 16:22:53.273 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Xmx512m
+19-Jul-2021 16:22:53.273 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+19-Jul-2021 16:22:53.273 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=./server/apache-tomcat-9.0.43
+19-Jul-2021 16:22:53.273 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=./server/apache-tomcat-9.0.43
+19-Jul-2021 16:22:53.273 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=./server/apache-tomcat-9.0.43/temp
+19-Jul-2021 16:22:53.274 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [/usr/java/packages/lib:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib]
+19-Jul-2021 16:22:53.527 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+19-Jul-2021 16:22:53.547 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [480] milliseconds
+19-Jul-2021 16:22:53.570 SEVERE [main] org.apache.tomcat.jdbc.pool.ConnectionPool.init Unable to create initial connections of pool.
+	java.sql.SQLException: Unable to load class: org.postgresql.Driver from ClassLoader:java.net.URLClassLoader@b81eda8;ClassLoader:java.net.URLClassLoader@b81eda8
+		at org.apache.tomcat.jdbc.pool.PooledConnection.connectUsingDriver(PooledConnection.java:292)
+		at org.apache.tomcat.jdbc.pool.PooledConnection.connect(PooledConnection.java:212)
+		at org.apache.tomcat.jdbc.pool.ConnectionPool.createConnection(ConnectionPool.java:744)
+		at org.apache.tomcat.jdbc.pool.ConnectionPool.borrowConnection(ConnectionPool.java:676)
+		at org.apache.tomcat.jdbc.pool.ConnectionPool.init(ConnectionPool.java:483)
+		at org.apache.tomcat.jdbc.pool.ConnectionPool.<init>(ConnectionPool.java:154)
+		at org.apache.tomcat.jdbc.pool.DataSourceProxy.pCreatePool(DataSourceProxy.java:118)
+		at org.apache.tomcat.jdbc.pool.DataSourceProxy.createPool(DataSourceProxy.java:107)
+		at org.apache.tomcat.jdbc.pool.DataSourceFactory.createDataSource(DataSourceFactory.java:560)
+		at org.apache.tomcat.jdbc.pool.DataSourceFactory.getObjectInstance(DataSourceFactory.java:244)
+		at org.apache.naming.factory.FactoryBase.getObjectInstance(FactoryBase.java:96)
+		at java.naming/javax.naming.spi.NamingManager.getObjectInstance(NamingManager.java:341)
+		at org.apache.naming.NamingContext.lookup(NamingContext.java:857)
+		at org.apache.naming.NamingContext.lookup(NamingContext.java:160)
+		at org.apache.naming.NamingContext.lookup(NamingContext.java:843)
+		at org.apache.naming.NamingContext.lookup(NamingContext.java:174)
+		at org.apache.catalina.core.NamingContextListener.addResource(NamingContextListener.java:1015)
+		at org.apache.catalina.core.NamingContextListener.createNamingContext(NamingContextListener.java:557)
+		at org.apache.catalina.core.NamingContextListener.lifecycleEvent(NamingContextListener.java:253)
+		at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:123)
+		at org.apache.catalina.core.StandardServer.startInternal(StandardServer.java:922)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.startup.Catalina.start(Catalina.java:772)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+		at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+		at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:342)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:473)
+	Caused by: java.lang.ClassNotFoundException: Unable to load class: org.postgresql.Driver from ClassLoader:java.net.URLClassLoader@b81eda8;ClassLoader:java.net.URLClassLoader@b81eda8
+		at org.apache.tomcat.jdbc.pool.ClassLoaderUtil.loadClass(ClassLoaderUtil.java:56)
+		at org.apache.tomcat.jdbc.pool.PooledConnection.connectUsingDriver(PooledConnection.java:281)
+		... 28 more
+	Caused by: java.lang.ClassNotFoundException: org.postgresql.Driver
+		at java.base/java.net.URLClassLoader.findClass(URLClassLoader.java:471)
+		at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:589)
+		at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:522)
+		at java.base/java.lang.Class.forName0(Native Method)
+		at java.base/java.lang.Class.forName(Class.java:398)
+		at org.apache.tomcat.jdbc.pool.ClassLoaderUtil.loadClass(ClassLoaderUtil.java:38)
+		... 29 more
+19-Jul-2021 16:22:53.572 WARNING [main] org.apache.naming.NamingContext.lookup Unexpected exception resolving reference
+	java.sql.SQLException: Unable to load class: org.postgresql.Driver from ClassLoader:java.net.URLClassLoader@b81eda8;ClassLoader:java.net.URLClassLoader@b81eda8
+		at org.apache.tomcat.jdbc.pool.PooledConnection.connectUsingDriver(PooledConnection.java:292)
+		at org.apache.tomcat.jdbc.pool.PooledConnection.connect(PooledConnection.java:212)
+		at org.apache.tomcat.jdbc.pool.ConnectionPool.createConnection(ConnectionPool.java:744)
+		at org.apache.tomcat.jdbc.pool.ConnectionPool.borrowConnection(ConnectionPool.java:676)
+		at org.apache.tomcat.jdbc.pool.ConnectionPool.init(ConnectionPool.java:483)
+		at org.apache.tomcat.jdbc.pool.ConnectionPool.<init>(ConnectionPool.java:154)
+		at org.apache.tomcat.jdbc.pool.DataSourceProxy.pCreatePool(DataSourceProxy.java:118)
+		at org.apache.tomcat.jdbc.pool.DataSourceProxy.createPool(DataSourceProxy.java:107)
+		at org.apache.tomcat.jdbc.pool.DataSourceFactory.createDataSource(DataSourceFactory.java:560)
+		at org.apache.tomcat.jdbc.pool.DataSourceFactory.getObjectInstance(DataSourceFactory.java:244)
+		at org.apache.naming.factory.FactoryBase.getObjectInstance(FactoryBase.java:96)
+		at java.naming/javax.naming.spi.NamingManager.getObjectInstance(NamingManager.java:341)
+		at org.apache.naming.NamingContext.lookup(NamingContext.java:857)
+		at org.apache.naming.NamingContext.lookup(NamingContext.java:160)
+		at org.apache.naming.NamingContext.lookup(NamingContext.java:843)
+		at org.apache.naming.NamingContext.lookup(NamingContext.java:174)
+		at org.apache.catalina.core.NamingContextListener.addResource(NamingContextListener.java:1015)
+		at org.apache.catalina.core.NamingContextListener.createNamingContext(NamingContextListener.java:557)
+		at org.apache.catalina.core.NamingContextListener.lifecycleEvent(NamingContextListener.java:253)
+		at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:123)
+		at org.apache.catalina.core.StandardServer.startInternal(StandardServer.java:922)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.startup.Catalina.start(Catalina.java:772)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+		at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+		at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:342)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:473)
+	Caused by: java.lang.ClassNotFoundException: Unable to load class: org.postgresql.Driver from ClassLoader:java.net.URLClassLoader@b81eda8;ClassLoader:java.net.URLClassLoader@b81eda8
+		at org.apache.tomcat.jdbc.pool.ClassLoaderUtil.loadClass(ClassLoaderUtil.java:56)
+		at org.apache.tomcat.jdbc.pool.PooledConnection.connectUsingDriver(PooledConnection.java:281)
+		... 28 more
+	Caused by: java.lang.ClassNotFoundException: org.postgresql.Driver
+		at java.base/java.net.URLClassLoader.findClass(URLClassLoader.java:471)
+		at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:589)
+		at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:522)
+		at java.base/java.lang.Class.forName0(Native Method)
+		at java.base/java.lang.Class.forName(Class.java:398)
+		at org.apache.tomcat.jdbc.pool.ClassLoaderUtil.loadClass(ClassLoaderUtil.java:38)
+		... 29 more
+19-Jul-2021 16:22:53.572 WARNING [main] org.apache.catalina.core.NamingContextListener.addResource naming.jmxRegistrationFailed
+19-Jul-2021 16:22:53.602 INFO [main] org.camunda.commons.logging.BaseLogger.logInfo ENGINE-08046 Found Camunda Platform configuration in CATALINA_BASE/CATALINA_HOME conf directory [/home/kiwitech/Downloads/camunda-bpm-tomcat-7.15.0/server/apache-tomcat-9.0.43/conf/bpm-platform.xml] at 'file:/home/kiwitech/Downloads/camunda-bpm-tomcat-7.15.0/server/apache-tomcat-9.0.43/conf/bpm-platform.xml'
+19-Jul-2021 16:22:53.708 INFO [main] org.camunda.commons.logging.BaseLogger.logInfo ENGINE-12003 Plugin 'ProcessApplicationEventListenerPlugin' activated on process engine 'default'
+19-Jul-2021 16:22:53.713 INFO [main] org.camunda.commons.logging.BaseLogger.logInfo ENGINE-12003 Plugin 'SpinProcessEnginePlugin' activated on process engine 'default'
+19-Jul-2021 16:22:53.716 INFO [main] org.camunda.commons.logging.BaseLogger.logInfo SPIN-01010 Discovered Spin data format provider: org.camunda.spin.impl.json.jackson.format.JacksonJsonDataFormatProvider[name = application/json]
+19-Jul-2021 16:22:53.835 INFO [main] org.camunda.commons.logging.BaseLogger.logInfo SPIN-01010 Discovered Spin data format provider: org.camunda.spin.impl.xml.dom.format.DomXmlDataFormatProvider[name = application/xml]
+19-Jul-2021 16:22:53.843 INFO [main] org.camunda.commons.logging.BaseLogger.logInfo SPIN-01009 Discovered Spin data format: org.camunda.spin.impl.xml.dom.format.DomXmlDataFormat[name = application/xml]
+19-Jul-2021 16:22:53.843 INFO [main] org.camunda.commons.logging.BaseLogger.logInfo SPIN-01009 Discovered Spin data format: org.camunda.spin.impl.json.jackson.format.JacksonJsonDataFormat[name = application/json]
+19-Jul-2021 16:22:53.843 INFO [main] org.camunda.commons.logging.BaseLogger.logInfo ENGINE-12003 Plugin 'ConnectProcessEnginePlugin' activated on process engine 'default'
+19-Jul-2021 16:22:53.849 INFO [main] org.camunda.commons.logging.BaseLogger.logInfo CNCT-01004 Discovered provider for connector id 'mail-send' and class 'org.camunda.bpm.extension.mail.send.SendMailConnector': 'org.camunda.bpm.extension.mail.send.SendMailProvider'
+19-Jul-2021 16:22:53.849 INFO [main] org.camunda.commons.logging.BaseLogger.logInfo CNCT-01004 Discovered provider for connector id 'mail-poll' and class 'org.camunda.bpm.extension.mail.poll.PollMailConnector': 'org.camunda.bpm.extension.mail.poll.PollMailProvider'
+19-Jul-2021 16:22:53.850 INFO [main] org.camunda.commons.logging.BaseLogger.logInfo CNCT-01004 Discovered provider for connector id 'mail-delete' and class 'org.camunda.bpm.extension.mail.delete.DeleteMailConnector': 'org.camunda.bpm.extension.mail.delete.DeleteMailProvider'
+19-Jul-2021 16:22:54.034 INFO [main] org.camunda.commons.logging.BaseLogger.logInfo CNCT-01004 Discovered provider for connector id 'http-connector' and class 'org.camunda.connect.httpclient.impl.HttpConnectorImpl': 'org.camunda.connect.httpclient.impl.HttpConnectorProviderImpl'
+19-Jul-2021 16:22:54.037 INFO [main] org.camunda.commons.logging.BaseLogger.logInfo CNCT-01004 Discovered provider for connector id 'soap-http-connector' and class 'org.camunda.connect.httpclient.soap.impl.SoapHttpConnectorImpl': 'org.camunda.connect.httpclient.soap.impl.SoapHttpConnectorProviderImpl'
+19-Jul-2021 16:22:54.189 INFO [main] org.camunda.commons.logging.BaseLogger.logInfo FEEL/SCALA-01001 Spin value mapper detected
+19-Jul-2021 16:22:54.236 INFO [main] org.camunda.feel.FeelEngine.<init> Engine created. [value-mapper: CompositeValueMapper(List(org.camunda.feel.impl.JavaValueMapper@b965857, org.camunda.spin.plugin.impl.feel.integration.SpinValueMapper@61f80d55)), function-provider: org.camunda.bpm.dmn.feel.impl.scala.function.CustomFunctionTransformer@20749d9, clock: SystemClock, configuration: Configuration(false)]
+19-Jul-2021 16:22:54.295 SEVERE [main] org.apache.tomcat.jdbc.pool.ConnectionPool.init Unable to create initial connections of pool.
+	java.sql.SQLException: Unable to load class: org.postgresql.Driver from ClassLoader:java.net.URLClassLoader@b81eda8;ClassLoader:java.net.URLClassLoader@b81eda8
+		at org.apache.tomcat.jdbc.pool.PooledConnection.connectUsingDriver(PooledConnection.java:292)
+		at org.apache.tomcat.jdbc.pool.PooledConnection.connect(PooledConnection.java:212)
+		at org.apache.tomcat.jdbc.pool.ConnectionPool.createConnection(ConnectionPool.java:744)
+		at org.apache.tomcat.jdbc.pool.ConnectionPool.borrowConnection(ConnectionPool.java:676)
+		at org.apache.tomcat.jdbc.pool.ConnectionPool.init(ConnectionPool.java:483)
+		at org.apache.tomcat.jdbc.pool.ConnectionPool.<init>(ConnectionPool.java:154)
+		at org.apache.tomcat.jdbc.pool.DataSourceProxy.pCreatePool(DataSourceProxy.java:118)
+		at org.apache.tomcat.jdbc.pool.DataSourceProxy.createPool(DataSourceProxy.java:107)
+		at org.apache.tomcat.jdbc.pool.DataSourceFactory.createDataSource(DataSourceFactory.java:560)
+		at org.apache.tomcat.jdbc.pool.DataSourceFactory.getObjectInstance(DataSourceFactory.java:244)
+		at org.apache.naming.factory.FactoryBase.getObjectInstance(FactoryBase.java:96)
+		at java.naming/javax.naming.spi.NamingManager.getObjectInstance(NamingManager.java:341)
+		at org.apache.naming.NamingContext.lookup(NamingContext.java:857)
+		at org.apache.naming.NamingContext.lookup(NamingContext.java:160)
+		at org.apache.naming.NamingContext.lookup(NamingContext.java:843)
+		at org.apache.naming.NamingContext.lookup(NamingContext.java:174)
+		at org.apache.naming.SelectorContext.lookup(SelectorContext.java:163)
+		at java.naming/javax.naming.InitialContext.lookup(InitialContext.java:409)
+		at org.camunda.bpm.engine.impl.cfg.ProcessEngineConfigurationImpl.initDataSource(ProcessEngineConfigurationImpl.java:1484)
+		at org.camunda.bpm.engine.impl.cfg.ProcessEngineConfigurationImpl.init(ProcessEngineConfigurationImpl.java:1006)
+		at org.camunda.bpm.engine.impl.cfg.ProcessEngineConfigurationImpl.buildProcessEngine(ProcessEngineConfigurationImpl.java:977)
+		at org.camunda.bpm.container.impl.jmx.services.JmxManagedProcessEngineController.start(JmxManagedProcessEngineController.java:38)
+		at org.camunda.bpm.container.impl.jmx.MBeanServiceContainer.startService(MBeanServiceContainer.java:77)
+		at org.camunda.bpm.container.impl.jmx.MBeanServiceContainer.startService(MBeanServiceContainer.java:63)
+		at org.camunda.bpm.container.impl.deployment.StartProcessEngineStep.performOperationStep(StartProcessEngineStep.java:119)
+		at org.camunda.bpm.container.impl.spi.DeploymentOperation.execute(DeploymentOperation.java:120)
+		at org.camunda.bpm.container.impl.jmx.MBeanServiceContainer.executeDeploymentOperation(MBeanServiceContainer.java:160)
+		at org.camunda.bpm.container.impl.spi.DeploymentOperation$DeploymentOperationBuilder.execute(DeploymentOperation.java:216)
+		at org.camunda.bpm.container.impl.tomcat.TomcatBpmPlatformBootstrap.deployBpmPlatform(TomcatBpmPlatformBootstrap.java:83)
+		at org.camunda.bpm.container.impl.tomcat.TomcatBpmPlatformBootstrap.lifecycleEvent(TomcatBpmPlatformBootstrap.java:61)
+		at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:123)
+		at org.apache.catalina.util.LifecycleBase.setStateInternal(LifecycleBase.java:423)
+		at org.apache.catalina.util.LifecycleBase.setState(LifecycleBase.java:366)
+		at org.apache.catalina.core.StandardServer.startInternal(StandardServer.java:923)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.startup.Catalina.start(Catalina.java:772)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+		at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+		at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:342)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:473)
+	Caused by: java.lang.ClassNotFoundException: Unable to load class: org.postgresql.Driver from ClassLoader:java.net.URLClassLoader@b81eda8;ClassLoader:java.net.URLClassLoader@b81eda8
+		at org.apache.tomcat.jdbc.pool.ClassLoaderUtil.loadClass(ClassLoaderUtil.java:56)
+		at org.apache.tomcat.jdbc.pool.PooledConnection.connectUsingDriver(PooledConnection.java:281)
+		... 41 more
+	Caused by: java.lang.ClassNotFoundException: org.postgresql.Driver
+		at java.base/java.net.URLClassLoader.findClass(URLClassLoader.java:471)
+		at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:589)
+		at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:522)
+		at java.base/java.lang.Class.forName0(Native Method)
+		at java.base/java.lang.Class.forName(Class.java:398)
+		at org.apache.tomcat.jdbc.pool.ClassLoaderUtil.loadClass(ClassLoaderUtil.java:38)
+		... 42 more
+19-Jul-2021 16:22:54.296 WARNING [main] org.apache.naming.NamingContext.lookup Unexpected exception resolving reference
+	java.sql.SQLException: Unable to load class: org.postgresql.Driver from ClassLoader:java.net.URLClassLoader@b81eda8;ClassLoader:java.net.URLClassLoader@b81eda8
+		at org.apache.tomcat.jdbc.pool.PooledConnection.connectUsingDriver(PooledConnection.java:292)
+		at org.apache.tomcat.jdbc.pool.PooledConnection.connect(PooledConnection.java:212)
+		at org.apache.tomcat.jdbc.pool.ConnectionPool.createConnection(ConnectionPool.java:744)
+		at org.apache.tomcat.jdbc.pool.ConnectionPool.borrowConnection(ConnectionPool.java:676)
+		at org.apache.tomcat.jdbc.pool.ConnectionPool.init(ConnectionPool.java:483)
+		at org.apache.tomcat.jdbc.pool.ConnectionPool.<init>(ConnectionPool.java:154)
+		at org.apache.tomcat.jdbc.pool.DataSourceProxy.pCreatePool(DataSourceProxy.java:118)
+		at org.apache.tomcat.jdbc.pool.DataSourceProxy.createPool(DataSourceProxy.java:107)
+		at org.apache.tomcat.jdbc.pool.DataSourceFactory.createDataSource(DataSourceFactory.java:560)
+		at org.apache.tomcat.jdbc.pool.DataSourceFactory.getObjectInstance(DataSourceFactory.java:244)
+		at org.apache.naming.factory.FactoryBase.getObjectInstance(FactoryBase.java:96)
+		at java.naming/javax.naming.spi.NamingManager.getObjectInstance(NamingManager.java:341)
+		at org.apache.naming.NamingContext.lookup(NamingContext.java:857)
+		at org.apache.naming.NamingContext.lookup(NamingContext.java:160)
+		at org.apache.naming.NamingContext.lookup(NamingContext.java:843)
+		at org.apache.naming.NamingContext.lookup(NamingContext.java:174)
+		at org.apache.naming.SelectorContext.lookup(SelectorContext.java:163)
+		at java.naming/javax.naming.InitialContext.lookup(InitialContext.java:409)
+		at org.camunda.bpm.engine.impl.cfg.ProcessEngineConfigurationImpl.initDataSource(ProcessEngineConfigurationImpl.java:1484)
+		at org.camunda.bpm.engine.impl.cfg.ProcessEngineConfigurationImpl.init(ProcessEngineConfigurationImpl.java:1006)
+		at org.camunda.bpm.engine.impl.cfg.ProcessEngineConfigurationImpl.buildProcessEngine(ProcessEngineConfigurationImpl.java:977)
+		at org.camunda.bpm.container.impl.jmx.services.JmxManagedProcessEngineController.start(JmxManagedProcessEngineController.java:38)
+		at org.camunda.bpm.container.impl.jmx.MBeanServiceContainer.startService(MBeanServiceContainer.java:77)
+		at org.camunda.bpm.container.impl.jmx.MBeanServiceContainer.startService(MBeanServiceContainer.java:63)
+		at org.camunda.bpm.container.impl.deployment.StartProcessEngineStep.performOperationStep(StartProcessEngineStep.java:119)
+		at org.camunda.bpm.container.impl.spi.DeploymentOperation.execute(DeploymentOperation.java:120)
+		at org.camunda.bpm.container.impl.jmx.MBeanServiceContainer.executeDeploymentOperation(MBeanServiceContainer.java:160)
+		at org.camunda.bpm.container.impl.spi.DeploymentOperation$DeploymentOperationBuilder.execute(DeploymentOperation.java:216)
+		at org.camunda.bpm.container.impl.tomcat.TomcatBpmPlatformBootstrap.deployBpmPlatform(TomcatBpmPlatformBootstrap.java:83)
+		at org.camunda.bpm.container.impl.tomcat.TomcatBpmPlatformBootstrap.lifecycleEvent(TomcatBpmPlatformBootstrap.java:61)
+		at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:123)
+		at org.apache.catalina.util.LifecycleBase.setStateInternal(LifecycleBase.java:423)
+		at org.apache.catalina.util.LifecycleBase.setState(LifecycleBase.java:366)
+		at org.apache.catalina.core.StandardServer.startInternal(StandardServer.java:923)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.startup.Catalina.start(Catalina.java:772)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+		at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+		at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:342)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:473)
+	Caused by: java.lang.ClassNotFoundException: Unable to load class: org.postgresql.Driver from ClassLoader:java.net.URLClassLoader@b81eda8;ClassLoader:java.net.URLClassLoader@b81eda8
+		at org.apache.tomcat.jdbc.pool.ClassLoaderUtil.loadClass(ClassLoaderUtil.java:56)
+		at org.apache.tomcat.jdbc.pool.PooledConnection.connectUsingDriver(PooledConnection.java:281)
+		... 41 more
+	Caused by: java.lang.ClassNotFoundException: org.postgresql.Driver
+		at java.base/java.net.URLClassLoader.findClass(URLClassLoader.java:471)
+		at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:589)
+		at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:522)
+		at java.base/java.lang.Class.forName0(Native Method)
+		at java.base/java.lang.Class.forName(Class.java:398)
+		at org.apache.tomcat.jdbc.pool.ClassLoaderUtil.loadClass(ClassLoaderUtil.java:38)
+		... 42 more
+19-Jul-2021 16:22:54.297 SEVERE [main] org.apache.catalina.startup.Catalina.start The required Server component failed to start so Tomcat is unable to start.
+	org.apache.catalina.LifecycleException: Failed to start component [StandardServer[8005]]
+		at org.apache.catalina.util.LifecycleBase.handleSubClassException(LifecycleBase.java:440)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:198)
+		at org.apache.catalina.startup.Catalina.start(Catalina.java:772)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+		at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+		at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:342)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:473)
+	Caused by: org.camunda.bpm.engine.ProcessEngineException: ENGINE-08043 Exception while performing 'deploy BPM platform' => 'Start process engine default': couldn't lookup datasource from java:jdbc/ProcessEngine: Unexpected exception resolving reference
+		at org.camunda.bpm.container.impl.ContainerIntegrationLogger.exceptionWhilePerformingOperationStep(ContainerIntegrationLogger.java:316)
+		at org.camunda.bpm.container.impl.spi.DeploymentOperation.execute(DeploymentOperation.java:136)
+		at org.camunda.bpm.container.impl.jmx.MBeanServiceContainer.executeDeploymentOperation(MBeanServiceContainer.java:160)
+		at org.camunda.bpm.container.impl.spi.DeploymentOperation$DeploymentOperationBuilder.execute(DeploymentOperation.java:216)
+		at org.camunda.bpm.container.impl.tomcat.TomcatBpmPlatformBootstrap.deployBpmPlatform(TomcatBpmPlatformBootstrap.java:83)
+		at org.camunda.bpm.container.impl.tomcat.TomcatBpmPlatformBootstrap.lifecycleEvent(TomcatBpmPlatformBootstrap.java:61)
+		at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:123)
+		at org.apache.catalina.util.LifecycleBase.setStateInternal(LifecycleBase.java:423)
+		at org.apache.catalina.util.LifecycleBase.setState(LifecycleBase.java:366)
+		at org.apache.catalina.core.StandardServer.startInternal(StandardServer.java:923)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		... 7 more
+	Caused by: org.camunda.bpm.engine.ProcessEngineException: couldn't lookup datasource from java:jdbc/ProcessEngine: Unexpected exception resolving reference
+		at org.camunda.bpm.engine.impl.cfg.ProcessEngineConfigurationImpl.initDataSource(ProcessEngineConfigurationImpl.java:1486)
+		at org.camunda.bpm.engine.impl.cfg.ProcessEngineConfigurationImpl.init(ProcessEngineConfigurationImpl.java:1006)
+		at org.camunda.bpm.engine.impl.cfg.ProcessEngineConfigurationImpl.buildProcessEngine(ProcessEngineConfigurationImpl.java:977)
+		at org.camunda.bpm.container.impl.jmx.services.JmxManagedProcessEngineController.start(JmxManagedProcessEngineController.java:38)
+		at org.camunda.bpm.container.impl.jmx.MBeanServiceContainer.startService(MBeanServiceContainer.java:77)
+		at org.camunda.bpm.container.impl.jmx.MBeanServiceContainer.startService(MBeanServiceContainer.java:63)
+		at org.camunda.bpm.container.impl.deployment.StartProcessEngineStep.performOperationStep(StartProcessEngineStep.java:119)
+		at org.camunda.bpm.container.impl.spi.DeploymentOperation.execute(DeploymentOperation.java:120)
+		... 16 more
+	Caused by: javax.naming.NamingException: Unexpected exception resolving reference [Root exception is java.sql.SQLException: Unable to load class: org.postgresql.Driver from ClassLoader:java.net.URLClassLoader@b81eda8;ClassLoader:java.net.URLClassLoader@b81eda8]
+		at org.apache.naming.NamingContext.lookup(NamingContext.java:882)
+		at org.apache.naming.NamingContext.lookup(NamingContext.java:160)
+		at org.apache.naming.NamingContext.lookup(NamingContext.java:843)
+		at org.apache.naming.NamingContext.lookup(NamingContext.java:174)
+		at org.apache.naming.SelectorContext.lookup(SelectorContext.java:163)
+		at java.naming/javax.naming.InitialContext.lookup(InitialContext.java:409)
+		at org.camunda.bpm.engine.impl.cfg.ProcessEngineConfigurationImpl.initDataSource(ProcessEngineConfigurationImpl.java:1484)
+		... 23 more
+	Caused by: java.sql.SQLException: Unable to load class: org.postgresql.Driver from ClassLoader:java.net.URLClassLoader@b81eda8;ClassLoader:java.net.URLClassLoader@b81eda8
+		at org.apache.tomcat.jdbc.pool.PooledConnection.connectUsingDriver(PooledConnection.java:292)
+		at org.apache.tomcat.jdbc.pool.PooledConnection.connect(PooledConnection.java:212)
+		at org.apache.tomcat.jdbc.pool.ConnectionPool.createConnection(ConnectionPool.java:744)
+		at org.apache.tomcat.jdbc.pool.ConnectionPool.borrowConnection(ConnectionPool.java:676)
+		at org.apache.tomcat.jdbc.pool.ConnectionPool.init(ConnectionPool.java:483)
+		at org.apache.tomcat.jdbc.pool.ConnectionPool.<init>(ConnectionPool.java:154)
+		at org.apache.tomcat.jdbc.pool.DataSourceProxy.pCreatePool(DataSourceProxy.java:118)
+		at org.apache.tomcat.jdbc.pool.DataSourceProxy.createPool(DataSourceProxy.java:107)
+		at org.apache.tomcat.jdbc.pool.DataSourceFactory.createDataSource(DataSourceFactory.java:560)
+		at org.apache.tomcat.jdbc.pool.DataSourceFactory.getObjectInstance(DataSourceFactory.java:244)
+		at org.apache.naming.factory.FactoryBase.getObjectInstance(FactoryBase.java:96)
+		at java.naming/javax.naming.spi.NamingManager.getObjectInstance(NamingManager.java:341)
+		at org.apache.naming.NamingContext.lookup(NamingContext.java:857)
+		... 29 more
+	Caused by: java.lang.ClassNotFoundException: Unable to load class: org.postgresql.Driver from ClassLoader:java.net.URLClassLoader@b81eda8;ClassLoader:java.net.URLClassLoader@b81eda8
+		at org.apache.tomcat.jdbc.pool.ClassLoaderUtil.loadClass(ClassLoaderUtil.java:56)
+		at org.apache.tomcat.jdbc.pool.PooledConnection.connectUsingDriver(PooledConnection.java:281)
+		... 41 more
+	Caused by: java.lang.ClassNotFoundException: org.postgresql.Driver
+		at java.base/java.net.URLClassLoader.findClass(URLClassLoader.java:471)
+		at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:589)
+		at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:522)
+		at java.base/java.lang.Class.forName0(Native Method)
+		at java.base/java.lang.Class.forName(Class.java:398)
+		at org.apache.tomcat.jdbc.pool.ClassLoaderUtil.loadClass(ClassLoaderUtil.java:38)
+		... 42 more
+19-Jul-2021 16:22:54.308 SEVERE [main] org.camunda.commons.logging.BaseLogger.logError ENGINE-08044 Exception while performing 'Stop managed thread pool': Cannot stop service org.camunda.bpm.platform:type=executor-service: no such service registered: service is null
+	org.camunda.bpm.engine.exception.NullValueException: Cannot stop service org.camunda.bpm.platform:type=executor-service: no such service registered: service is null
+		at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+		at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+		at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+		at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+		at org.camunda.bpm.engine.impl.util.EnsureUtil.generateException(EnsureUtil.java:394)
+		at org.camunda.bpm.engine.impl.util.EnsureUtil.ensureNotNull(EnsureUtil.java:55)
+		at org.camunda.bpm.engine.impl.util.EnsureUtil.ensureNotNull(EnsureUtil.java:50)
+		at org.camunda.bpm.container.impl.jmx.MBeanServiceContainer.stopService(MBeanServiceContainer.java:121)
+		at org.camunda.bpm.container.impl.jmx.MBeanServiceContainer.stopService(MBeanServiceContainer.java:109)
+		at org.camunda.bpm.container.impl.deployment.jobexecutor.StopManagedThreadPoolStep.performOperationStep(StopManagedThreadPoolStep.java:37)
+		at org.camunda.bpm.container.impl.spi.DeploymentOperation.execute(DeploymentOperation.java:120)
+		at org.camunda.bpm.container.impl.jmx.MBeanServiceContainer.executeDeploymentOperation(MBeanServiceContainer.java:160)
+		at org.camunda.bpm.container.impl.spi.DeploymentOperation$DeploymentOperationBuilder.execute(DeploymentOperation.java:216)
+		at org.camunda.bpm.container.impl.tomcat.TomcatBpmPlatformBootstrap.undeployBpmPlatform(TomcatBpmPlatformBootstrap.java:101)
+		at org.camunda.bpm.container.impl.tomcat.TomcatBpmPlatformBootstrap.lifecycleEvent(TomcatBpmPlatformBootstrap.java:66)
+		at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:123)
+		at org.apache.catalina.util.LifecycleBase.setStateInternal(LifecycleBase.java:423)
+		at org.apache.catalina.util.LifecycleBase.setState(LifecycleBase.java:366)
+		at org.apache.catalina.core.StandardServer.stopInternal(StandardServer.java:967)
+		at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:257)
+		at org.apache.catalina.util.LifecycleBase.destroy(LifecycleBase.java:293)
+		at org.apache.catalina.startup.Catalina.start(Catalina.java:776)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+		at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+		at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:342)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:473)
+19-Jul-2021 16:22:54.309 SEVERE [main] org.camunda.commons.logging.BaseLogger.logError ENGINE-08044 Exception while performing 'Unregistering BPM Platform Plugins': Cannot stop service org.camunda.bpm.platform:type=bpm-platform-plugins: no such service registered: service is null
+	org.camunda.bpm.engine.exception.NullValueException: Cannot stop service org.camunda.bpm.platform:type=bpm-platform-plugins: no such service registered: service is null
+		at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+		at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+		at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+		at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+		at org.camunda.bpm.engine.impl.util.EnsureUtil.generateException(EnsureUtil.java:394)
+		at org.camunda.bpm.engine.impl.util.EnsureUtil.ensureNotNull(EnsureUtil.java:55)
+		at org.camunda.bpm.engine.impl.util.EnsureUtil.ensureNotNull(EnsureUtil.java:50)
+		at org.camunda.bpm.container.impl.jmx.MBeanServiceContainer.stopService(MBeanServiceContainer.java:121)
+		at org.camunda.bpm.container.impl.jmx.MBeanServiceContainer.stopService(MBeanServiceContainer.java:109)
+		at org.camunda.bpm.container.impl.deployment.UnregisterBpmPlatformPluginsStep.performOperationStep(UnregisterBpmPlatformPluginsStep.java:37)
+		at org.camunda.bpm.container.impl.spi.DeploymentOperation.execute(DeploymentOperation.java:120)
+		at org.camunda.bpm.container.impl.jmx.MBeanServiceContainer.executeDeploymentOperation(MBeanServiceContainer.java:160)
+		at org.camunda.bpm.container.impl.spi.DeploymentOperation$DeploymentOperationBuilder.execute(DeploymentOperation.java:216)
+		at org.camunda.bpm.container.impl.tomcat.TomcatBpmPlatformBootstrap.undeployBpmPlatform(TomcatBpmPlatformBootstrap.java:101)
+		at org.camunda.bpm.container.impl.tomcat.TomcatBpmPlatformBootstrap.lifecycleEvent(TomcatBpmPlatformBootstrap.java:66)
+		at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:123)
+		at org.apache.catalina.util.LifecycleBase.setStateInternal(LifecycleBase.java:423)
+		at org.apache.catalina.util.LifecycleBase.setState(LifecycleBase.java:366)
+		at org.apache.catalina.core.StandardServer.stopInternal(StandardServer.java:967)
+		at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:257)
+		at org.apache.catalina.util.LifecycleBase.destroy(LifecycleBase.java:293)
+		at org.apache.catalina.startup.Catalina.start(Catalina.java:776)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+		at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+		at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:342)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:473)
+19-Jul-2021 16:22:54.309 INFO [main] org.camunda.commons.logging.BaseLogger.logInfo ENGINE-08049 Camunda Platform stopped at 'Apache Tomcat/9.0.43'
+19-Jul-2021 16:22:54.309 SEVERE [main] org.apache.catalina.util.LifecycleBase.destroy Called stop() on failed component [StandardServer[8005]] to trigger clean-up but it failed too
+	org.apache.catalina.LifecycleException: An invalid Lifecycle transition was attempted ([before_stop]) for component [StandardService[Catalina]] in state [INITIALIZED]
+		at org.apache.catalina.util.LifecycleBase.invalidTransition(LifecycleBase.java:430)
+		at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:244)
+		at org.apache.catalina.core.StandardServer.stopInternal(StandardServer.java:982)
+		at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:257)
+		at org.apache.catalina.util.LifecycleBase.destroy(LifecycleBase.java:293)
+		at org.apache.catalina.startup.Catalina.start(Catalina.java:776)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+		at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+		at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:342)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:473)
+19-Jul-2021 16:22:54.310 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+19-Jul-2021 16:25:51.225 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.43
+19-Jul-2021 16:25:51.228 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Jan 28 2021 20:25:45 UTC
+19-Jul-2021 16:25:51.229 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.43.0
+19-Jul-2021 16:25:51.229 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+19-Jul-2021 16:25:51.229 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            5.4.0-77-generic
+19-Jul-2021 16:25:51.229 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+19-Jul-2021 16:25:51.229 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /usr/lib/jvm/java-11-openjdk-amd64
+19-Jul-2021 16:25:51.229 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           11.0.11+9-Ubuntu-0ubuntu2.18.04
+19-Jul-2021 16:25:51.230 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Ubuntu
+19-Jul-2021 16:25:51.230 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /home/kiwitech/Downloads/camunda-bpm-tomcat-7.15.0/server/apache-tomcat-9.0.43
+19-Jul-2021 16:25:51.230 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /home/kiwitech/Downloads/camunda-bpm-tomcat-7.15.0/server/apache-tomcat-9.0.43
+19-Jul-2021 16:25:51.240 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+19-Jul-2021 16:25:51.240 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+19-Jul-2021 16:25:51.240 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+19-Jul-2021 16:25:51.240 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+19-Jul-2021 16:25:51.241 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+19-Jul-2021 16:25:51.241 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=./server/apache-tomcat-9.0.43/conf/logging.properties
+19-Jul-2021 16:25:51.241 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+19-Jul-2021 16:25:51.241 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+19-Jul-2021 16:25:51.241 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+19-Jul-2021 16:25:51.241 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+19-Jul-2021 16:25:51.241 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Xmx512m
+19-Jul-2021 16:25:51.241 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+19-Jul-2021 16:25:51.241 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=./server/apache-tomcat-9.0.43
+19-Jul-2021 16:25:51.241 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=./server/apache-tomcat-9.0.43
+19-Jul-2021 16:25:51.241 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=./server/apache-tomcat-9.0.43/temp
+19-Jul-2021 16:25:51.242 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [/usr/java/packages/lib:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib]
+19-Jul-2021 16:25:51.511 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+19-Jul-2021 16:25:51.534 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [492] milliseconds
+19-Jul-2021 16:25:52.467 INFO [main] org.camunda.commons.logging.BaseLogger.logInfo ENGINE-08046 Found Camunda Platform configuration in CATALINA_BASE/CATALINA_HOME conf directory [/home/kiwitech/Downloads/camunda-bpm-tomcat-7.15.0/server/apache-tomcat-9.0.43/conf/bpm-platform.xml] at 'file:/home/kiwitech/Downloads/camunda-bpm-tomcat-7.15.0/server/apache-tomcat-9.0.43/conf/bpm-platform.xml'
+19-Jul-2021 16:25:52.564 INFO [main] org.camunda.commons.logging.BaseLogger.logInfo ENGINE-12003 Plugin 'ProcessApplicationEventListenerPlugin' activated on process engine 'default'
+19-Jul-2021 16:25:52.568 INFO [main] org.camunda.commons.logging.BaseLogger.logInfo ENGINE-12003 Plugin 'SpinProcessEnginePlugin' activated on process engine 'default'
+19-Jul-2021 16:25:52.571 INFO [main] org.camunda.commons.logging.BaseLogger.logInfo SPIN-01010 Discovered Spin data format provider: org.camunda.spin.impl.json.jackson.format.JacksonJsonDataFormatProvider[name = application/json]
+19-Jul-2021 16:25:52.693 INFO [main] org.camunda.commons.logging.BaseLogger.logInfo SPIN-01010 Discovered Spin data format provider: org.camunda.spin.impl.xml.dom.format.DomXmlDataFormatProvider[name = application/xml]
+19-Jul-2021 16:25:52.701 INFO [main] org.camunda.commons.logging.BaseLogger.logInfo SPIN-01009 Discovered Spin data format: org.camunda.spin.impl.xml.dom.format.DomXmlDataFormat[name = application/xml]
+19-Jul-2021 16:25:52.701 INFO [main] org.camunda.commons.logging.BaseLogger.logInfo SPIN-01009 Discovered Spin data format: org.camunda.spin.impl.json.jackson.format.JacksonJsonDataFormat[name = application/json]
+19-Jul-2021 16:25:52.701 INFO [main] org.camunda.commons.logging.BaseLogger.logInfo ENGINE-12003 Plugin 'ConnectProcessEnginePlugin' activated on process engine 'default'
+19-Jul-2021 16:25:52.707 INFO [main] org.camunda.commons.logging.BaseLogger.logInfo CNCT-01004 Discovered provider for connector id 'mail-send' and class 'org.camunda.bpm.extension.mail.send.SendMailConnector': 'org.camunda.bpm.extension.mail.send.SendMailProvider'
+19-Jul-2021 16:25:52.708 INFO [main] org.camunda.commons.logging.BaseLogger.logInfo CNCT-01004 Discovered provider for connector id 'mail-poll' and class 'org.camunda.bpm.extension.mail.poll.PollMailConnector': 'org.camunda.bpm.extension.mail.poll.PollMailProvider'
+19-Jul-2021 16:25:52.709 INFO [main] org.camunda.commons.logging.BaseLogger.logInfo CNCT-01004 Discovered provider for connector id 'mail-delete' and class 'org.camunda.bpm.extension.mail.delete.DeleteMailConnector': 'org.camunda.bpm.extension.mail.delete.DeleteMailProvider'
+19-Jul-2021 16:25:52.822 INFO [main] org.camunda.commons.logging.BaseLogger.logInfo CNCT-01004 Discovered provider for connector id 'http-connector' and class 'org.camunda.connect.httpclient.impl.HttpConnectorImpl': 'org.camunda.connect.httpclient.impl.HttpConnectorProviderImpl'
+19-Jul-2021 16:25:52.825 INFO [main] org.camunda.commons.logging.BaseLogger.logInfo CNCT-01004 Discovered provider for connector id 'soap-http-connector' and class 'org.camunda.connect.httpclient.soap.impl.SoapHttpConnectorImpl': 'org.camunda.connect.httpclient.soap.impl.SoapHttpConnectorProviderImpl'
+19-Jul-2021 16:25:52.962 INFO [main] org.camunda.commons.logging.BaseLogger.logInfo FEEL/SCALA-01001 Spin value mapper detected
+19-Jul-2021 16:25:53.018 INFO [main] org.camunda.feel.FeelEngine.<init> Engine created. [value-mapper: CompositeValueMapper(List(org.camunda.feel.impl.JavaValueMapper@381d7219, org.camunda.spin.plugin.impl.feel.integration.SpinValueMapper@49fe3142)), function-provider: org.camunda.bpm.dmn.feel.impl.scala.function.CustomFunctionTransformer@35f639fa, clock: SystemClock, configuration: Configuration(false)]
+19-Jul-2021 16:25:57.575 INFO [main] org.camunda.commons.logging.BaseLogger.logInfo ENGINE-03016 Performing database operation 'create' on component 'identity' with resource 'org/camunda/bpm/engine/db/create/activiti.postgres.create.identity.sql'
+19-Jul-2021 16:25:57.674 INFO [main] org.camunda.commons.logging.BaseLogger.logInfo ENGINE-03067 No history level property found in database
+19-Jul-2021 16:25:57.674 INFO [main] org.camunda.commons.logging.BaseLogger.logInfo ENGINE-03065 Creating historyLevel property in database for level: HistoryLevelFull(name=full, id=3)
+19-Jul-2021 16:25:58.027 INFO [main] org.camunda.commons.logging.BaseLogger.logInfo ENGINE-00001 Process Engine default created.
+19-Jul-2021 16:25:58.029 INFO [main] org.camunda.commons.logging.BaseLogger.logInfo ENGINE-14014 Starting up the JobExecutor[org.camunda.bpm.engine.impl.jobexecutor.RuntimeContainerJobExecutor].
+19-Jul-2021 16:25:58.031 INFO [Thread-5] org.camunda.commons.logging.BaseLogger.logInfo ENGINE-14018 JobExecutor[org.camunda.bpm.engine.impl.jobexecutor.RuntimeContainerJobExecutor] starting to acquire jobs
+19-Jul-2021 16:25:58.032 INFO [main] org.camunda.commons.logging.BaseLogger.logInfo ENGINE-08048 Camunda Platform sucessfully started at 'Apache Tomcat/9.0.43'.
+19-Jul-2021 16:25:58.045 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+19-Jul-2021 16:25:58.045 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.43]
+19-Jul-2021 16:25:58.056 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/kiwitech/Downloads/camunda-bpm-tomcat-7.15.0/server/apache-tomcat-9.0.43/webapps/ROOT]
+19-Jul-2021 16:25:59.926 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+19-Jul-2021 16:25:59.967 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/kiwitech/Downloads/camunda-bpm-tomcat-7.15.0/server/apache-tomcat-9.0.43/webapps/ROOT] has finished in [1,912] ms
+19-Jul-2021 16:25:59.967 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/kiwitech/Downloads/camunda-bpm-tomcat-7.15.0/server/apache-tomcat-9.0.43/webapps/engine-rest]
+19-Jul-2021 16:26:01.536 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+19-Jul-2021 16:26:01.652 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/kiwitech/Downloads/camunda-bpm-tomcat-7.15.0/server/apache-tomcat-9.0.43/webapps/engine-rest] has finished in [1,685] ms
+19-Jul-2021 16:26:01.652 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/kiwitech/Downloads/camunda-bpm-tomcat-7.15.0/server/apache-tomcat-9.0.43/webapps/manager]
+19-Jul-2021 16:26:02.881 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+19-Jul-2021 16:26:02.886 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/kiwitech/Downloads/camunda-bpm-tomcat-7.15.0/server/apache-tomcat-9.0.43/webapps/manager] has finished in [1,234] ms
+19-Jul-2021 16:26:02.886 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/kiwitech/Downloads/camunda-bpm-tomcat-7.15.0/server/apache-tomcat-9.0.43/webapps/camunda]
+19-Jul-2021 16:26:04.369 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+19-Jul-2021 16:26:04.641 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/kiwitech/Downloads/camunda-bpm-tomcat-7.15.0/server/apache-tomcat-9.0.43/webapps/camunda] has finished in [1,755] ms
+19-Jul-2021 16:26:04.641 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/kiwitech/Downloads/camunda-bpm-tomcat-7.15.0/server/apache-tomcat-9.0.43/webapps/docs]
+19-Jul-2021 16:26:05.835 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+19-Jul-2021 16:26:05.836 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/kiwitech/Downloads/camunda-bpm-tomcat-7.15.0/server/apache-tomcat-9.0.43/webapps/docs] has finished in [1,195] ms
+19-Jul-2021 16:26:05.837 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/kiwitech/Downloads/camunda-bpm-tomcat-7.15.0/server/apache-tomcat-9.0.43/webapps/h2]
+19-Jul-2021 16:26:07.013 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+19-Jul-2021 16:26:07.027 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/kiwitech/Downloads/camunda-bpm-tomcat-7.15.0/server/apache-tomcat-9.0.43/webapps/h2] has finished in [1,191] ms
+19-Jul-2021 16:26:07.027 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/kiwitech/Downloads/camunda-bpm-tomcat-7.15.0/server/apache-tomcat-9.0.43/webapps/camunda-welcome]
+19-Jul-2021 16:26:08.203 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+19-Jul-2021 16:26:08.205 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/kiwitech/Downloads/camunda-bpm-tomcat-7.15.0/server/apache-tomcat-9.0.43/webapps/camunda-welcome] has finished in [1,178] ms
+19-Jul-2021 16:26:08.205 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/kiwitech/Downloads/camunda-bpm-tomcat-7.15.0/server/apache-tomcat-9.0.43/webapps/host-manager]
+19-Jul-2021 16:26:09.364 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+19-Jul-2021 16:26:09.366 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/kiwitech/Downloads/camunda-bpm-tomcat-7.15.0/server/apache-tomcat-9.0.43/webapps/host-manager] has finished in [1,161] ms
+19-Jul-2021 16:26:09.366 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/kiwitech/Downloads/camunda-bpm-tomcat-7.15.0/server/apache-tomcat-9.0.43/webapps/examples]
+19-Jul-2021 16:26:10.625 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+19-Jul-2021 16:26:10.650 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/kiwitech/Downloads/camunda-bpm-tomcat-7.15.0/server/apache-tomcat-9.0.43/webapps/examples] has finished in [1,284] ms
+19-Jul-2021 16:26:10.651 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/kiwitech/Downloads/camunda-bpm-tomcat-7.15.0/server/apache-tomcat-9.0.43/webapps/camunda-invoice]
+19-Jul-2021 16:26:11.825 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+19-Jul-2021 16:26:11.825 INFO [main] org.camunda.commons.logging.BaseLogger.logInfo ENGINE-07015 Detected @ProcessApplication class 'org.camunda.bpm.example.invoice.InvoiceProcessApplication'
+19-Jul-2021 16:26:11.831 INFO [main] org.camunda.commons.logging.BaseLogger.logInfo ENGINE-08024 Found processes.xml file at file:/home/kiwitech/Downloads/camunda-bpm-tomcat-7.15.0/server/apache-tomcat-9.0.43/webapps/camunda-invoice/WEB-INF/classes/META-INF/processes.xml
+19-Jul-2021 16:26:12.321 INFO [main] org.camunda.commons.logging.BaseLogger.logInfo ENGINE-07021 ProcessApplication 'camunda-invoice' registered for DB deployments [ee36eeec-e87f-11eb-b358-00e02d86b9a0]. Will execute process definitions 
+
+        invoice[version: 1, id: invoice:1:ee4baf70-e87f-11eb-b358-00e02d86b9a0]
+        ReviewInvoice[version: 1, id: ReviewInvoice:1:ee4c4bb2-e87f-11eb-b358-00e02d86b9a0]
+Deployment does not provide any case definitions.
+19-Jul-2021 16:26:12.467 INFO [main] org.camunda.commons.logging.BaseLogger.logInfo ENGINE-08023 Deployment summary for process archive 'camunda-invoice': 
+
+        invoiceBusinessDecisions.dmn
+        invoice.v2.bpmn
+
+19-Jul-2021 16:26:12.562 INFO [main] org.camunda.commons.logging.BaseLogger.logInfo ENGINE-07021 ProcessApplication 'camunda-invoice' registered for DB deployments [ee36eeec-e87f-11eb-b358-00e02d86b9a0, ee7f4296-e87f-11eb-b358-00e02d86b9a0]. Will execute process definitions 
+
+        ReviewInvoice[version: 1, id: ReviewInvoice:1:ee4c4bb2-e87f-11eb-b358-00e02d86b9a0]
+        invoice[version: 1, id: invoice:1:ee4baf70-e87f-11eb-b358-00e02d86b9a0]
+        invoice[version: 2, id: invoice:2:ee831329-e87f-11eb-b358-00e02d86b9a0]
+Deployment does not provide any case definitions.
+19-Jul-2021 16:26:12.587 INFO [main] org.camunda.commons.logging.BaseLogger.logInfo SPIN-01010 Discovered Spin data format provider: org.camunda.spin.impl.json.jackson.format.JacksonJsonDataFormatProvider[name = application/json]
+19-Jul-2021 16:26:12.588 INFO [main] org.camunda.commons.logging.BaseLogger.logInfo SPIN-01010 Discovered Spin data format provider: org.camunda.spin.impl.xml.dom.format.DomXmlDataFormatProvider[name = application/xml]
+19-Jul-2021 16:26:12.589 INFO [main] org.camunda.commons.logging.BaseLogger.logInfo SPIN-01009 Discovered Spin data format: org.camunda.spin.impl.xml.dom.format.DomXmlDataFormat[name = application/xml]
+19-Jul-2021 16:26:12.589 INFO [main] org.camunda.commons.logging.BaseLogger.logInfo SPIN-01009 Discovered Spin data format: org.camunda.spin.impl.json.jackson.format.JacksonJsonDataFormat[name = application/json]
+19-Jul-2021 16:26:12.598 INFO [main] org.camunda.bpm.example.invoice.DemoDataGenerator.createUsers Generating demo data for invoice showcase
+19-Jul-2021 16:26:13.301 INFO [main] org.camunda.bpm.example.invoice.InvoiceProcessApplication.startProcessInstances Start 3 instances of Invoice Receipt, version 1
+19-Jul-2021 16:26:14.651 INFO [main] org.camunda.bpm.example.invoice.service.NotifyCreditorService.execute 
+
+  ... Now notifying creditor Bobby's Office Supplies
+
+
+19-Jul-2021 16:26:14.898 INFO [main] org.camunda.bpm.example.invoice.InvoiceProcessApplication.startProcessInstances Start 3 instances of Invoice Receipt, version 2
+19-Jul-2021 16:26:15.287 INFO [main] org.camunda.commons.logging.BaseLogger.logInfo ENGINE-08050 Process application camunda-invoice successfully deployed
+19-Jul-2021 16:26:15.289 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/kiwitech/Downloads/camunda-bpm-tomcat-7.15.0/server/apache-tomcat-9.0.43/webapps/camunda-invoice] has finished in [4,638] ms
+19-Jul-2021 16:26:15.292 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+19-Jul-2021 16:26:15.316 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [23781] milliseconds
+19-Jul-2021 16:26:15.777 INFO [http-nio-8080-exec-4] org.jboss.resteasy.spi.ResteasyDeployment.processApplication RESTEASY002225: Deploying javax.ws.rs.core.Application: class org.camunda.bpm.cockpit.impl.web.CockpitApplication
+19-Jul-2021 16:26:15.794 INFO [http-nio-8080-exec-4] org.jboss.resteasy.spi.ResteasyDeployment.processApplication RESTEASY002205: Adding provider class org.camunda.bpm.engine.rest.mapper.JacksonConfigurator from Application class org.camunda.bpm.cockpit.impl.web.CockpitApplication
+19-Jul-2021 16:26:15.795 INFO [http-nio-8080-exec-4] org.jboss.resteasy.spi.ResteasyDeployment.processApplication RESTEASY002205: Adding provider class org.camunda.bpm.engine.rest.exception.RestExceptionHandler from Application class org.camunda.bpm.cockpit.impl.web.CockpitApplication
+19-Jul-2021 16:26:15.796 INFO [http-nio-8080-exec-4] org.jboss.resteasy.spi.ResteasyDeployment.processApplication RESTEASY002200: Adding class resource org.camunda.bpm.cockpit.impl.plugin.resources.CockpitPluginsRootResource from Application class org.camunda.bpm.cockpit.impl.web.CockpitApplication
+19-Jul-2021 16:26:15.796 INFO [http-nio-8080-exec-4] org.jboss.resteasy.spi.ResteasyDeployment.processApplication RESTEASY002200: Adding class resource org.camunda.bpm.cockpit.impl.plugin.resources.BaseRootResource from Application class org.camunda.bpm.cockpit.impl.web.CockpitApplication
+19-Jul-2021 16:26:15.797 INFO [http-nio-8080-exec-4] org.jboss.resteasy.spi.ResteasyDeployment.processApplication RESTEASY002205: Adding provider class com.fasterxml.jackson.jaxrs.json.JacksonJsonProvider from Application class org.camunda.bpm.cockpit.impl.web.CockpitApplication
+19-Jul-2021 16:26:15.797 INFO [http-nio-8080-exec-4] org.jboss.resteasy.spi.ResteasyDeployment.processApplication RESTEASY002205: Adding provider class org.camunda.bpm.engine.rest.exception.ExceptionHandler from Application class org.camunda.bpm.cockpit.impl.web.CockpitApplication
+19-Jul-2021 16:26:16.024 INFO [http-nio-8080-exec-7] org.jboss.resteasy.spi.ResteasyDeployment.processApplication RESTEASY002225: Deploying javax.ws.rs.core.Application: class org.camunda.bpm.webapp.impl.engine.EngineRestApplication
+19-Jul-2021 16:26:16.028 INFO [http-nio-8080-exec-7] org.jboss.resteasy.spi.ResteasyDeployment.processApplication RESTEASY002205: Adding provider class org.camunda.bpm.engine.rest.mapper.JacksonConfigurator from Application class org.camunda.bpm.webapp.impl.engine.EngineRestApplication
+19-Jul-2021 16:26:16.028 INFO [http-nio-8080-exec-7] org.jboss.resteasy.spi.ResteasyDeployment.processApplication RESTEASY002205: Adding provider class org.camunda.bpm.engine.rest.exception.RestExceptionHandler from Application class org.camunda.bpm.webapp.impl.engine.EngineRestApplication
+19-Jul-2021 16:26:16.028 INFO [http-nio-8080-exec-7] org.jboss.resteasy.spi.ResteasyDeployment.processApplication RESTEASY002205: Adding provider class org.camunda.bpm.engine.rest.mapper.MultipartPayloadProvider from Application class org.camunda.bpm.webapp.impl.engine.EngineRestApplication
+19-Jul-2021 16:26:16.028 INFO [http-nio-8080-exec-7] org.jboss.resteasy.spi.ResteasyDeployment.processApplication RESTEASY002205: Adding provider class org.camunda.bpm.engine.rest.hal.JacksonHalJsonProvider from Application class org.camunda.bpm.webapp.impl.engine.EngineRestApplication
+19-Jul-2021 16:26:16.028 INFO [http-nio-8080-exec-7] org.jboss.resteasy.spi.ResteasyDeployment.processApplication RESTEASY002205: Adding provider class com.fasterxml.jackson.jaxrs.json.JacksonJsonProvider from Application class org.camunda.bpm.webapp.impl.engine.EngineRestApplication
+19-Jul-2021 16:26:16.029 INFO [http-nio-8080-exec-7] org.jboss.resteasy.spi.ResteasyDeployment.processApplication RESTEASY002205: Adding provider class org.camunda.bpm.engine.rest.exception.ExceptionHandler from Application class org.camunda.bpm.webapp.impl.engine.EngineRestApplication
+19-Jul-2021 16:26:16.029 INFO [http-nio-8080-exec-7] org.jboss.resteasy.spi.ResteasyDeployment.processApplication RESTEASY002205: Adding provider class org.camunda.bpm.engine.rest.exception.JsonParseExceptionHandler from Application class org.camunda.bpm.webapp.impl.engine.EngineRestApplication
+19-Jul-2021 16:26:16.029 INFO [http-nio-8080-exec-7] org.jboss.resteasy.spi.ResteasyDeployment.processApplication RESTEASY002205: Adding provider class org.camunda.bpm.engine.rest.exception.ProcessEngineExceptionHandler from Application class org.camunda.bpm.webapp.impl.engine.EngineRestApplication
+19-Jul-2021 16:26:16.029 INFO [http-nio-8080-exec-7] org.jboss.resteasy.spi.ResteasyDeployment.processApplication RESTEASY002200: Adding class resource org.camunda.bpm.engine.rest.impl.NamedProcessEngineRestServiceImpl from Application class org.camunda.bpm.webapp.impl.engine.EngineRestApplication
+19-Jul-2021 16:26:16.029 INFO [http-nio-8080-exec-7] org.jboss.resteasy.spi.ResteasyDeployment.processApplication RESTEASY002205: Adding provider class org.camunda.bpm.engine.rest.exception.JsonMappingExceptionHandler from Application class org.camunda.bpm.webapp.impl.engine.EngineRestApplication
+19-Jul-2021 16:26:16.057 INFO [http-nio-8080-exec-8] org.jboss.resteasy.spi.ResteasyDeployment.processApplication RESTEASY002225: Deploying javax.ws.rs.core.Application: class org.camunda.bpm.admin.impl.web.AdminApplication
+19-Jul-2021 16:26:16.061 INFO [http-nio-8080-exec-8] org.jboss.resteasy.spi.ResteasyDeployment.processApplication RESTEASY002205: Adding provider class org.camunda.bpm.engine.rest.mapper.JacksonConfigurator from Application class org.camunda.bpm.admin.impl.web.AdminApplication
+19-Jul-2021 16:26:16.061 INFO [http-nio-8080-exec-8] org.jboss.resteasy.spi.ResteasyDeployment.processApplication RESTEASY002205: Adding provider class org.camunda.bpm.engine.rest.exception.RestExceptionHandler from Application class org.camunda.bpm.admin.impl.web.AdminApplication
+19-Jul-2021 16:26:16.062 INFO [http-nio-8080-exec-8] org.jboss.resteasy.spi.ResteasyDeployment.processApplication RESTEASY002200: Adding class resource org.camunda.bpm.admin.impl.plugin.resources.AdminPluginsRootResource from Application class org.camunda.bpm.admin.impl.web.AdminApplication
+19-Jul-2021 16:26:16.062 INFO [http-nio-8080-exec-8] org.jboss.resteasy.spi.ResteasyDeployment.processApplication RESTEASY002200: Adding class resource org.camunda.bpm.webapp.impl.security.auth.UserAuthenticationResource from Application class org.camunda.bpm.admin.impl.web.AdminApplication
+19-Jul-2021 16:26:16.062 INFO [http-nio-8080-exec-8] org.jboss.resteasy.spi.ResteasyDeployment.processApplication RESTEASY002205: Adding provider class com.fasterxml.jackson.jaxrs.json.JacksonJsonProvider from Application class org.camunda.bpm.admin.impl.web.AdminApplication
+19-Jul-2021 16:26:16.062 INFO [http-nio-8080-exec-8] org.jboss.resteasy.spi.ResteasyDeployment.processApplication RESTEASY002205: Adding provider class org.camunda.bpm.engine.rest.exception.ExceptionHandler from Application class org.camunda.bpm.admin.impl.web.AdminApplication
+19-Jul-2021 16:26:16.062 INFO [http-nio-8080-exec-8] org.jboss.resteasy.spi.ResteasyDeployment.processApplication RESTEASY002200: Adding class resource org.camunda.bpm.admin.impl.web.SetupResource from Application class org.camunda.bpm.admin.impl.web.AdminApplication
+19-Jul-2021 16:26:41.562 INFO [http-nio-8080-exec-4] org.jboss.resteasy.spi.ResteasyDeployment.processApplication RESTEASY002225: Deploying javax.ws.rs.core.Application: class org.camunda.bpm.engine.rest.impl.application.DefaultApplication
+19-Jul-2021 16:26:41.568 INFO [http-nio-8080-exec-4] org.jboss.resteasy.spi.ResteasyDeployment.processApplication RESTEASY002205: Adding provider class org.camunda.bpm.engine.rest.mapper.JacksonConfigurator from Application class org.camunda.bpm.engine.rest.impl.application.DefaultApplication
+19-Jul-2021 16:26:41.570 INFO [http-nio-8080-exec-4] org.jboss.resteasy.spi.ResteasyDeployment.processApplication RESTEASY002205: Adding provider class org.camunda.bpm.engine.rest.hal.JacksonHalJsonProvider from Application class org.camunda.bpm.engine.rest.impl.application.DefaultApplication
+19-Jul-2021 16:26:41.570 INFO [http-nio-8080-exec-4] org.jboss.resteasy.spi.ResteasyDeployment.processApplication RESTEASY002205: Adding provider class com.fasterxml.jackson.jaxrs.json.JacksonJsonProvider from Application class org.camunda.bpm.engine.rest.impl.application.DefaultApplication
+19-Jul-2021 16:26:41.571 INFO [http-nio-8080-exec-4] org.jboss.resteasy.spi.ResteasyDeployment.processApplication RESTEASY002205: Adding provider class org.camunda.bpm.engine.rest.exception.RestExceptionHandler from Application class org.camunda.bpm.engine.rest.impl.application.DefaultApplication
+19-Jul-2021 16:26:41.571 INFO [http-nio-8080-exec-4] org.jboss.resteasy.spi.ResteasyDeployment.processApplication RESTEASY002205: Adding provider class org.camunda.bpm.engine.rest.exception.JsonParseExceptionHandler from Application class org.camunda.bpm.engine.rest.impl.application.DefaultApplication
+19-Jul-2021 16:26:41.571 INFO [http-nio-8080-exec-4] org.jboss.resteasy.spi.ResteasyDeployment.processApplication RESTEASY002200: Adding class resource org.camunda.bpm.engine.rest.impl.JaxRsTwoDefaultProcessEngineRestServiceImpl from Application class org.camunda.bpm.engine.rest.impl.application.DefaultApplication
+19-Jul-2021 16:26:41.572 INFO [http-nio-8080-exec-4] org.jboss.resteasy.spi.ResteasyDeployment.processApplication RESTEASY002200: Adding class resource org.camunda.bpm.engine.rest.impl.JaxRsTwoNamedProcessEngineRestServiceImpl from Application class org.camunda.bpm.engine.rest.impl.application.DefaultApplication
+19-Jul-2021 16:26:41.572 INFO [http-nio-8080-exec-4] org.jboss.resteasy.spi.ResteasyDeployment.processApplication RESTEASY002205: Adding provider class org.camunda.bpm.engine.rest.exception.ProcessEngineExceptionHandler from Application class org.camunda.bpm.engine.rest.impl.application.DefaultApplication
+19-Jul-2021 16:26:41.572 INFO [http-nio-8080-exec-4] org.jboss.resteasy.spi.ResteasyDeployment.processApplication RESTEASY002205: Adding provider class org.camunda.bpm.engine.rest.exception.ExceptionHandler from Application class org.camunda.bpm.engine.rest.impl.application.DefaultApplication
+19-Jul-2021 16:26:41.572 INFO [http-nio-8080-exec-4] org.jboss.resteasy.spi.ResteasyDeployment.processApplication RESTEASY002205: Adding provider class org.camunda.bpm.engine.rest.mapper.MultipartPayloadProvider from Application class org.camunda.bpm.engine.rest.impl.application.DefaultApplication
+19-Jul-2021 16:26:41.572 INFO [http-nio-8080-exec-4] org.jboss.resteasy.spi.ResteasyDeployment.processApplication RESTEASY002205: Adding provider class org.camunda.bpm.engine.rest.exception.JsonMappingExceptionHandler from Application class org.camunda.bpm.engine.rest.impl.application.DefaultApplication
+19-Jul-2021 16:46:57.116 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+19-Jul-2021 16:46:57.118 INFO [main] org.camunda.commons.logging.BaseLogger.logInfo ENGINE-14015 Shutting down the JobExecutor[org.camunda.bpm.engine.impl.jobexecutor.RuntimeContainerJobExecutor]
+19-Jul-2021 16:46:57.118 INFO [Thread-5] org.camunda.commons.logging.BaseLogger.logInfo ENGINE-14020 JobExecutor[org.camunda.bpm.engine.impl.jobexecutor.RuntimeContainerJobExecutor] stopped job acquisition
+19-Jul-2021 16:46:57.141 INFO [main] org.camunda.commons.logging.BaseLogger.logInfo ENGINE-08051 Process application camunda-invoice undeployed
+19-Jul-2021 16:46:58.083 INFO [main] org.camunda.commons.logging.BaseLogger.logInfo ENGINE-00007 Process Engine default closed
+19-Jul-2021 16:46:58.084 INFO [main] org.camunda.commons.logging.BaseLogger.logInfo ENGINE-08049 Camunda Platform stopped at 'Apache Tomcat/9.0.43'
+19-Jul-2021 16:46:58.085 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+19-Jul-2021 16:46:58.092 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+19-Jul-2021 16:46:58.111 WARNING [main] org.camunda.commons.logging.BaseLogger.logWarn ENGINE-07017 Calling undeploy() on process application that is not deployed.
+19-Jul-2021 16:46:58.149 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+19-Jul-2021 16:46:58.203 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+19-Jul-2021 16:54:13.978 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.43
+19-Jul-2021 16:54:13.981 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Jan 28 2021 20:25:45 UTC
+19-Jul-2021 16:54:13.981 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.43.0
+19-Jul-2021 16:54:13.981 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+19-Jul-2021 16:54:13.981 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            5.4.0-77-generic
+19-Jul-2021 16:54:13.981 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+19-Jul-2021 16:54:13.981 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /usr/lib/jvm/java-11-openjdk-amd64
+19-Jul-2021 16:54:13.982 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           11.0.11+9-Ubuntu-0ubuntu2.18.04
+19-Jul-2021 16:54:13.982 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Ubuntu
+19-Jul-2021 16:54:13.982 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /home/kiwitech/Downloads/camunda-bpm-tomcat-7.15.0/server/apache-tomcat-9.0.43
+19-Jul-2021 16:54:13.982 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /home/kiwitech/Downloads/camunda-bpm-tomcat-7.15.0/server/apache-tomcat-9.0.43
+19-Jul-2021 16:54:13.991 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+19-Jul-2021 16:54:13.991 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+19-Jul-2021 16:54:13.992 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+19-Jul-2021 16:54:13.992 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+19-Jul-2021 16:54:13.992 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+19-Jul-2021 16:54:13.992 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=./server/apache-tomcat-9.0.43/conf/logging.properties
+19-Jul-2021 16:54:13.992 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+19-Jul-2021 16:54:13.992 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+19-Jul-2021 16:54:13.992 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+19-Jul-2021 16:54:13.992 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+19-Jul-2021 16:54:13.992 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Xmx512m
+19-Jul-2021 16:54:13.992 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+19-Jul-2021 16:54:13.992 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=./server/apache-tomcat-9.0.43
+19-Jul-2021 16:54:13.992 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=./server/apache-tomcat-9.0.43
+19-Jul-2021 16:54:13.993 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=./server/apache-tomcat-9.0.43/temp
+19-Jul-2021 16:54:13.994 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [/usr/java/packages/lib:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib]
+19-Jul-2021 16:54:14.253 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+19-Jul-2021 16:54:14.274 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [485] milliseconds
+19-Jul-2021 16:54:14.731 INFO [main] org.camunda.commons.logging.BaseLogger.logInfo ENGINE-08046 Found Camunda Platform configuration in CATALINA_BASE/CATALINA_HOME conf directory [/home/kiwitech/Downloads/camunda-bpm-tomcat-7.15.0/server/apache-tomcat-9.0.43/conf/bpm-platform.xml] at 'file:/home/kiwitech/Downloads/camunda-bpm-tomcat-7.15.0/server/apache-tomcat-9.0.43/conf/bpm-platform.xml'
+19-Jul-2021 16:54:14.833 INFO [main] org.camunda.commons.logging.BaseLogger.logInfo ENGINE-12003 Plugin 'ProcessApplicationEventListenerPlugin' activated on process engine 'default'
+19-Jul-2021 16:54:14.837 INFO [main] org.camunda.commons.logging.BaseLogger.logInfo ENGINE-12003 Plugin 'SpinProcessEnginePlugin' activated on process engine 'default'
+19-Jul-2021 16:54:14.841 INFO [main] org.camunda.commons.logging.BaseLogger.logInfo SPIN-01010 Discovered Spin data format provider: org.camunda.spin.impl.json.jackson.format.JacksonJsonDataFormatProvider[name = application/json]
+19-Jul-2021 16:54:14.963 INFO [main] org.camunda.commons.logging.BaseLogger.logInfo SPIN-01010 Discovered Spin data format provider: org.camunda.spin.impl.xml.dom.format.DomXmlDataFormatProvider[name = application/xml]
+19-Jul-2021 16:54:14.971 INFO [main] org.camunda.commons.logging.BaseLogger.logInfo SPIN-01009 Discovered Spin data format: org.camunda.spin.impl.xml.dom.format.DomXmlDataFormat[name = application/xml]
+19-Jul-2021 16:54:14.971 INFO [main] org.camunda.commons.logging.BaseLogger.logInfo SPIN-01009 Discovered Spin data format: org.camunda.spin.impl.json.jackson.format.JacksonJsonDataFormat[name = application/json]
+19-Jul-2021 16:54:14.971 INFO [main] org.camunda.commons.logging.BaseLogger.logInfo ENGINE-12003 Plugin 'ConnectProcessEnginePlugin' activated on process engine 'default'
+19-Jul-2021 16:54:14.977 INFO [main] org.camunda.commons.logging.BaseLogger.logInfo CNCT-01004 Discovered provider for connector id 'mail-send' and class 'org.camunda.bpm.extension.mail.send.SendMailConnector': 'org.camunda.bpm.extension.mail.send.SendMailProvider'
+19-Jul-2021 16:54:14.978 INFO [main] org.camunda.commons.logging.BaseLogger.logInfo CNCT-01004 Discovered provider for connector id 'mail-poll' and class 'org.camunda.bpm.extension.mail.poll.PollMailConnector': 'org.camunda.bpm.extension.mail.poll.PollMailProvider'
+19-Jul-2021 16:54:14.979 INFO [main] org.camunda.commons.logging.BaseLogger.logInfo CNCT-01004 Discovered provider for connector id 'mail-delete' and class 'org.camunda.bpm.extension.mail.delete.DeleteMailConnector': 'org.camunda.bpm.extension.mail.delete.DeleteMailProvider'
+19-Jul-2021 16:54:15.083 INFO [main] org.camunda.commons.logging.BaseLogger.logInfo CNCT-01004 Discovered provider for connector id 'http-connector' and class 'org.camunda.connect.httpclient.impl.HttpConnectorImpl': 'org.camunda.connect.httpclient.impl.HttpConnectorProviderImpl'
+19-Jul-2021 16:54:15.085 INFO [main] org.camunda.commons.logging.BaseLogger.logInfo CNCT-01004 Discovered provider for connector id 'soap-http-connector' and class 'org.camunda.connect.httpclient.soap.impl.SoapHttpConnectorImpl': 'org.camunda.connect.httpclient.soap.impl.SoapHttpConnectorProviderImpl'
+19-Jul-2021 16:54:15.224 INFO [main] org.camunda.commons.logging.BaseLogger.logInfo FEEL/SCALA-01001 Spin value mapper detected
+19-Jul-2021 16:54:15.278 INFO [main] org.camunda.feel.FeelEngine.<init> Engine created. [value-mapper: CompositeValueMapper(List(org.camunda.feel.impl.JavaValueMapper@61c42416, org.camunda.spin.plugin.impl.feel.integration.SpinValueMapper@329a1f8d)), function-provider: org.camunda.bpm.dmn.feel.impl.scala.function.CustomFunctionTransformer@3e47a03, clock: SystemClock, configuration: Configuration(false)]
+19-Jul-2021 16:54:18.312 INFO [main] org.camunda.commons.logging.BaseLogger.logInfo ENGINE-00001 Process Engine default created.
+19-Jul-2021 16:54:18.313 INFO [main] org.camunda.commons.logging.BaseLogger.logInfo ENGINE-14014 Starting up the JobExecutor[org.camunda.bpm.engine.impl.jobexecutor.RuntimeContainerJobExecutor].
+19-Jul-2021 16:54:18.315 INFO [Thread-5] org.camunda.commons.logging.BaseLogger.logInfo ENGINE-14018 JobExecutor[org.camunda.bpm.engine.impl.jobexecutor.RuntimeContainerJobExecutor] starting to acquire jobs
+19-Jul-2021 16:54:18.316 INFO [main] org.camunda.commons.logging.BaseLogger.logInfo ENGINE-08048 Camunda Platform sucessfully started at 'Apache Tomcat/9.0.43'.
+19-Jul-2021 16:54:18.337 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+19-Jul-2021 16:54:18.337 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.43]
+19-Jul-2021 16:54:18.344 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/kiwitech/Downloads/camunda-bpm-tomcat-7.15.0/server/apache-tomcat-9.0.43/webapps/ROOT]
+19-Jul-2021 16:54:20.376 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+19-Jul-2021 16:54:20.414 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/kiwitech/Downloads/camunda-bpm-tomcat-7.15.0/server/apache-tomcat-9.0.43/webapps/ROOT] has finished in [2,070] ms
+19-Jul-2021 16:54:20.415 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/kiwitech/Downloads/camunda-bpm-tomcat-7.15.0/server/apache-tomcat-9.0.43/webapps/engine-rest]
+19-Jul-2021 16:54:22.117 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+19-Jul-2021 16:54:22.266 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/kiwitech/Downloads/camunda-bpm-tomcat-7.15.0/server/apache-tomcat-9.0.43/webapps/engine-rest] has finished in [1,851] ms
+19-Jul-2021 16:54:22.267 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/kiwitech/Downloads/camunda-bpm-tomcat-7.15.0/server/apache-tomcat-9.0.43/webapps/manager]
+19-Jul-2021 16:54:23.534 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+19-Jul-2021 16:54:23.539 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/kiwitech/Downloads/camunda-bpm-tomcat-7.15.0/server/apache-tomcat-9.0.43/webapps/manager] has finished in [1,271] ms
+19-Jul-2021 16:54:23.539 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/kiwitech/Downloads/camunda-bpm-tomcat-7.15.0/server/apache-tomcat-9.0.43/webapps/camunda]
+19-Jul-2021 16:54:24.980 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+19-Jul-2021 16:54:25.296 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/kiwitech/Downloads/camunda-bpm-tomcat-7.15.0/server/apache-tomcat-9.0.43/webapps/camunda] has finished in [1,757] ms
+19-Jul-2021 16:54:25.296 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/kiwitech/Downloads/camunda-bpm-tomcat-7.15.0/server/apache-tomcat-9.0.43/webapps/docs]
+19-Jul-2021 16:54:26.488 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+19-Jul-2021 16:54:26.489 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/kiwitech/Downloads/camunda-bpm-tomcat-7.15.0/server/apache-tomcat-9.0.43/webapps/docs] has finished in [1,193] ms
+19-Jul-2021 16:54:26.489 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/kiwitech/Downloads/camunda-bpm-tomcat-7.15.0/server/apache-tomcat-9.0.43/webapps/h2]
+19-Jul-2021 16:54:27.653 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+19-Jul-2021 16:54:27.666 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/kiwitech/Downloads/camunda-bpm-tomcat-7.15.0/server/apache-tomcat-9.0.43/webapps/h2] has finished in [1,176] ms
+19-Jul-2021 16:54:27.666 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/kiwitech/Downloads/camunda-bpm-tomcat-7.15.0/server/apache-tomcat-9.0.43/webapps/camunda-welcome]
+19-Jul-2021 16:54:28.840 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+19-Jul-2021 16:54:28.841 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/kiwitech/Downloads/camunda-bpm-tomcat-7.15.0/server/apache-tomcat-9.0.43/webapps/camunda-welcome] has finished in [1,175] ms
+19-Jul-2021 16:54:28.841 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/kiwitech/Downloads/camunda-bpm-tomcat-7.15.0/server/apache-tomcat-9.0.43/webapps/host-manager]
+19-Jul-2021 16:54:29.974 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+19-Jul-2021 16:54:29.975 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/kiwitech/Downloads/camunda-bpm-tomcat-7.15.0/server/apache-tomcat-9.0.43/webapps/host-manager] has finished in [1,134] ms
+19-Jul-2021 16:54:29.976 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/kiwitech/Downloads/camunda-bpm-tomcat-7.15.0/server/apache-tomcat-9.0.43/webapps/examples]
+19-Jul-2021 16:54:31.194 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+19-Jul-2021 16:54:31.220 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/kiwitech/Downloads/camunda-bpm-tomcat-7.15.0/server/apache-tomcat-9.0.43/webapps/examples] has finished in [1,244] ms
+19-Jul-2021 16:54:31.221 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/kiwitech/Downloads/camunda-bpm-tomcat-7.15.0/server/apache-tomcat-9.0.43/webapps/camunda-invoice]
+19-Jul-2021 16:54:32.354 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+19-Jul-2021 16:54:32.354 INFO [main] org.camunda.commons.logging.BaseLogger.logInfo ENGINE-07015 Detected @ProcessApplication class 'org.camunda.bpm.example.invoice.InvoiceProcessApplication'
+19-Jul-2021 16:54:32.362 INFO [main] org.camunda.commons.logging.BaseLogger.logInfo ENGINE-08024 Found processes.xml file at file:/home/kiwitech/Downloads/camunda-bpm-tomcat-7.15.0/server/apache-tomcat-9.0.43/webapps/camunda-invoice/WEB-INF/classes/META-INF/processes.xml
+19-Jul-2021 16:54:32.382 INFO [main] org.camunda.commons.logging.BaseLogger.logInfo ENGINE-08023 Deployment summary for process archive 'camunda-invoice': 
+
+        invoiceBusinessDecisions.dmn
+        invoice.v2.bpmn
+
+19-Jul-2021 16:54:32.643 INFO [main] org.camunda.commons.logging.BaseLogger.logInfo ENGINE-07021 ProcessApplication 'camunda-invoice' registered for DB deployments [ee36eeec-e87f-11eb-b358-00e02d86b9a0, ee7f4296-e87f-11eb-b358-00e02d86b9a0]. Will execute process definitions 
+
+        ReviewInvoice[version: 1, id: ReviewInvoice:1:ee4c4bb2-e87f-11eb-b358-00e02d86b9a0]
+        invoice[version: 1, id: invoice:1:ee4baf70-e87f-11eb-b358-00e02d86b9a0]
+        invoice[version: 2, id: invoice:2:ee831329-e87f-11eb-b358-00e02d86b9a0]
+Deployment does not provide any case definitions.
+19-Jul-2021 16:54:32.664 INFO [main] org.camunda.commons.logging.BaseLogger.logInfo SPIN-01010 Discovered Spin data format provider: org.camunda.spin.impl.json.jackson.format.JacksonJsonDataFormatProvider[name = application/json]
+19-Jul-2021 16:54:32.666 INFO [main] org.camunda.commons.logging.BaseLogger.logInfo SPIN-01010 Discovered Spin data format provider: org.camunda.spin.impl.xml.dom.format.DomXmlDataFormatProvider[name = application/xml]
+19-Jul-2021 16:54:32.667 INFO [main] org.camunda.commons.logging.BaseLogger.logInfo SPIN-01009 Discovered Spin data format: org.camunda.spin.impl.xml.dom.format.DomXmlDataFormat[name = application/xml]
+19-Jul-2021 16:54:32.668 INFO [main] org.camunda.commons.logging.BaseLogger.logInfo SPIN-01009 Discovered Spin data format: org.camunda.spin.impl.json.jackson.format.JacksonJsonDataFormat[name = application/json]
+19-Jul-2021 16:54:32.731 INFO [main] org.camunda.bpm.example.invoice.InvoiceProcessApplication.startProcessInstances No new instances of Invoice Receipt version 1 started, there are 3 instances running
+19-Jul-2021 16:54:32.766 INFO [main] org.camunda.bpm.example.invoice.InvoiceProcessApplication.startProcessInstances No new instances of Invoice Receipt version 2 started, there are 3 instances running
+19-Jul-2021 16:54:32.767 INFO [main] org.camunda.commons.logging.BaseLogger.logInfo ENGINE-08050 Process application camunda-invoice successfully deployed
+19-Jul-2021 16:54:32.769 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/kiwitech/Downloads/camunda-bpm-tomcat-7.15.0/server/apache-tomcat-9.0.43/webapps/camunda-invoice] has finished in [1,548] ms
+19-Jul-2021 16:54:32.776 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+19-Jul-2021 16:54:32.802 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [18527] milliseconds
+19-Jul-2021 16:54:33.309 INFO [http-nio-8080-exec-5] org.jboss.resteasy.spi.ResteasyDeployment.processApplication RESTEASY002225: Deploying javax.ws.rs.core.Application: class org.camunda.bpm.cockpit.impl.web.CockpitApplication
+19-Jul-2021 16:54:33.322 INFO [http-nio-8080-exec-5] org.jboss.resteasy.spi.ResteasyDeployment.processApplication RESTEASY002205: Adding provider class org.camunda.bpm.engine.rest.exception.RestExceptionHandler from Application class org.camunda.bpm.cockpit.impl.web.CockpitApplication
+19-Jul-2021 16:54:33.323 INFO [http-nio-8080-exec-5] org.jboss.resteasy.spi.ResteasyDeployment.processApplication RESTEASY002205: Adding provider class org.camunda.bpm.engine.rest.mapper.JacksonConfigurator from Application class org.camunda.bpm.cockpit.impl.web.CockpitApplication
+19-Jul-2021 16:54:33.323 INFO [http-nio-8080-exec-5] org.jboss.resteasy.spi.ResteasyDeployment.processApplication RESTEASY002205: Adding provider class com.fasterxml.jackson.jaxrs.json.JacksonJsonProvider from Application class org.camunda.bpm.cockpit.impl.web.CockpitApplication
+19-Jul-2021 16:54:33.324 INFO [http-nio-8080-exec-5] org.jboss.resteasy.spi.ResteasyDeployment.processApplication RESTEASY002200: Adding class resource org.camunda.bpm.cockpit.impl.plugin.resources.BaseRootResource from Application class org.camunda.bpm.cockpit.impl.web.CockpitApplication
+19-Jul-2021 16:54:33.324 INFO [http-nio-8080-exec-5] org.jboss.resteasy.spi.ResteasyDeployment.processApplication RESTEASY002205: Adding provider class org.camunda.bpm.engine.rest.exception.ExceptionHandler from Application class org.camunda.bpm.cockpit.impl.web.CockpitApplication
+19-Jul-2021 16:54:33.324 INFO [http-nio-8080-exec-5] org.jboss.resteasy.spi.ResteasyDeployment.processApplication RESTEASY002200: Adding class resource org.camunda.bpm.cockpit.impl.plugin.resources.CockpitPluginsRootResource from Application class org.camunda.bpm.cockpit.impl.web.CockpitApplication
+19-Jul-2021 16:54:33.556 INFO [http-nio-8080-exec-7] org.jboss.resteasy.spi.ResteasyDeployment.processApplication RESTEASY002225: Deploying javax.ws.rs.core.Application: class org.camunda.bpm.webapp.impl.engine.EngineRestApplication
+19-Jul-2021 16:54:33.566 INFO [http-nio-8080-exec-7] org.jboss.resteasy.spi.ResteasyDeployment.processApplication RESTEASY002205: Adding provider class org.camunda.bpm.engine.rest.exception.RestExceptionHandler from Application class org.camunda.bpm.webapp.impl.engine.EngineRestApplication
+19-Jul-2021 16:54:33.566 INFO [http-nio-8080-exec-7] org.jboss.resteasy.spi.ResteasyDeployment.processApplication RESTEASY002205: Adding provider class org.camunda.bpm.engine.rest.hal.JacksonHalJsonProvider from Application class org.camunda.bpm.webapp.impl.engine.EngineRestApplication
+19-Jul-2021 16:54:33.567 INFO [http-nio-8080-exec-7] org.jboss.resteasy.spi.ResteasyDeployment.processApplication RESTEASY002200: Adding class resource org.camunda.bpm.engine.rest.impl.NamedProcessEngineRestServiceImpl from Application class org.camunda.bpm.webapp.impl.engine.EngineRestApplication
+19-Jul-2021 16:54:33.567 INFO [http-nio-8080-exec-7] org.jboss.resteasy.spi.ResteasyDeployment.processApplication RESTEASY002205: Adding provider class org.camunda.bpm.engine.rest.mapper.JacksonConfigurator from Application class org.camunda.bpm.webapp.impl.engine.EngineRestApplication
+19-Jul-2021 16:54:33.575 INFO [http-nio-8080-exec-7] org.jboss.resteasy.spi.ResteasyDeployment.processApplication RESTEASY002205: Adding provider class org.camunda.bpm.engine.rest.exception.ProcessEngineExceptionHandler from Application class org.camunda.bpm.webapp.impl.engine.EngineRestApplication
+19-Jul-2021 16:54:33.575 INFO [http-nio-8080-exec-7] org.jboss.resteasy.spi.ResteasyDeployment.processApplication RESTEASY002205: Adding provider class org.camunda.bpm.engine.rest.mapper.MultipartPayloadProvider from Application class org.camunda.bpm.webapp.impl.engine.EngineRestApplication
+19-Jul-2021 16:54:33.575 INFO [http-nio-8080-exec-7] org.jboss.resteasy.spi.ResteasyDeployment.processApplication RESTEASY002205: Adding provider class com.fasterxml.jackson.jaxrs.json.JacksonJsonProvider from Application class org.camunda.bpm.webapp.impl.engine.EngineRestApplication
+19-Jul-2021 16:54:33.575 INFO [http-nio-8080-exec-7] org.jboss.resteasy.spi.ResteasyDeployment.processApplication RESTEASY002205: Adding provider class org.camunda.bpm.engine.rest.exception.JsonParseExceptionHandler from Application class org.camunda.bpm.webapp.impl.engine.EngineRestApplication
+19-Jul-2021 16:54:33.575 INFO [http-nio-8080-exec-7] org.jboss.resteasy.spi.ResteasyDeployment.processApplication RESTEASY002205: Adding provider class org.camunda.bpm.engine.rest.exception.ExceptionHandler from Application class org.camunda.bpm.webapp.impl.engine.EngineRestApplication
+19-Jul-2021 16:54:33.575 INFO [http-nio-8080-exec-7] org.jboss.resteasy.spi.ResteasyDeployment.processApplication RESTEASY002205: Adding provider class org.camunda.bpm.engine.rest.exception.JsonMappingExceptionHandler from Application class org.camunda.bpm.webapp.impl.engine.EngineRestApplication
+19-Jul-2021 16:54:33.599 INFO [http-nio-8080-exec-8] org.jboss.resteasy.spi.ResteasyDeployment.processApplication RESTEASY002225: Deploying javax.ws.rs.core.Application: class org.camunda.bpm.admin.impl.web.AdminApplication
+19-Jul-2021 16:54:33.602 INFO [http-nio-8080-exec-8] org.jboss.resteasy.spi.ResteasyDeployment.processApplication RESTEASY002205: Adding provider class org.camunda.bpm.engine.rest.exception.RestExceptionHandler from Application class org.camunda.bpm.admin.impl.web.AdminApplication
+19-Jul-2021 16:54:33.602 INFO [http-nio-8080-exec-8] org.jboss.resteasy.spi.ResteasyDeployment.processApplication RESTEASY002205: Adding provider class org.camunda.bpm.engine.rest.mapper.JacksonConfigurator from Application class org.camunda.bpm.admin.impl.web.AdminApplication
+19-Jul-2021 16:54:33.602 INFO [http-nio-8080-exec-8] org.jboss.resteasy.spi.ResteasyDeployment.processApplication RESTEASY002200: Adding class resource org.camunda.bpm.admin.impl.plugin.resources.AdminPluginsRootResource from Application class org.camunda.bpm.admin.impl.web.AdminApplication
+19-Jul-2021 16:54:33.602 INFO [http-nio-8080-exec-8] org.jboss.resteasy.spi.ResteasyDeployment.processApplication RESTEASY002200: Adding class resource org.camunda.bpm.webapp.impl.security.auth.UserAuthenticationResource from Application class org.camunda.bpm.admin.impl.web.AdminApplication
+19-Jul-2021 16:54:33.602 INFO [http-nio-8080-exec-8] org.jboss.resteasy.spi.ResteasyDeployment.processApplication RESTEASY002205: Adding provider class com.fasterxml.jackson.jaxrs.json.JacksonJsonProvider from Application class org.camunda.bpm.admin.impl.web.AdminApplication
+19-Jul-2021 16:54:33.602 INFO [http-nio-8080-exec-8] org.jboss.resteasy.spi.ResteasyDeployment.processApplication RESTEASY002205: Adding provider class org.camunda.bpm.engine.rest.exception.ExceptionHandler from Application class org.camunda.bpm.admin.impl.web.AdminApplication
+19-Jul-2021 16:54:33.602 INFO [http-nio-8080-exec-8] org.jboss.resteasy.spi.ResteasyDeployment.processApplication RESTEASY002200: Adding class resource org.camunda.bpm.admin.impl.web.SetupResource from Application class org.camunda.bpm.admin.impl.web.AdminApplication
+19-Jul-2021 17:25:40.294 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+19-Jul-2021 17:25:40.296 INFO [main] org.camunda.commons.logging.BaseLogger.logInfo ENGINE-14015 Shutting down the JobExecutor[org.camunda.bpm.engine.impl.jobexecutor.RuntimeContainerJobExecutor]
+19-Jul-2021 17:25:40.296 INFO [18] org.camunda.commons.logging.BaseLogger.logInfo ENGINE-14020 JobExecutor[org.camunda.bpm.engine.impl.jobexecutor.RuntimeContainerJobExecutor] stopped job acquisition
+19-Jul-2021 17:25:40.331 INFO [main] org.camunda.commons.logging.BaseLogger.logInfo ENGINE-08051 Process application camunda-invoice undeployed
+19-Jul-2021 17:25:41.231 INFO [main] org.camunda.commons.logging.BaseLogger.logInfo ENGINE-00007 Process Engine default closed
+19-Jul-2021 17:25:41.232 INFO [main] org.camunda.commons.logging.BaseLogger.logInfo ENGINE-08049 Camunda Platform stopped at 'Apache Tomcat/9.0.43'
+19-Jul-2021 17:25:41.233 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+19-Jul-2021 17:25:41.239 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+19-Jul-2021 17:25:41.258 WARNING [main] org.camunda.commons.logging.BaseLogger.logWarn ENGINE-07017 Calling undeploy() on process application that is not deployed.
+19-Jul-2021 17:25:41.272 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+19-Jul-2021 17:25:41.291 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
